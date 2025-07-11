@@ -105,8 +105,3 @@
   border-radius: 50%;
   filter: blur(30px);
 }
-
-/* Remove scroll bar: no accidental overflow */
-html, body {
-  overflow: hidden;
-}

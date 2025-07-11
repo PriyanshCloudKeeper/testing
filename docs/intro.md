@@ -1,47 +1,46 @@
 ---
 sidebar_position: 1
+title: Overview
 ---
 
-# Tutorial Intro
+# CloudKeeper Lens
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## A Comprehensive AWS Cloud Cost Visibility & Recommendations Platform
 
-## Getting Started
+Transform your AWS costs into actionable insights.  
+From high-level trends to a granular view of your cloud spending and usage, gain the clarity you need for informed decision-making and smart recommendations that drive real impact to your bottom line.
 
-Get started by **creating a new site**.
+---
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Why CloudKeeper Lens?
 
-### What you'll need
+- **Resource-level cost visibility**, without needing access to your AWS account.
+- **Slack and Microsoft Teams integrations** for seamless updates and alerts.
+- **Unified view across multiple AWS accounts**, all in one place.
+- A single platform to achieve **full cloud transparency** while driving long-term savings.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+---
 
-## Generate a new site
+### Key Benefits
 
-Generate a new Docusaurus site using the **classic template**.
+#### Monitor • Manage • Maximize
 
-The classic template will automatically be added to your project after you run the command:
+- Detailed billing summary and daily cost heatmaps.
+- Account- and service-wise cost trends (monthly, weekly, daily).
+- Average daily spend and accurate monthly forecasts.
+- Advanced dashboards for critical services like EKS, databases, and data transfer.
+- Hourly dashboards to spot variances and anomalies.
+- Insights into Reserved Instances (RI) and Savings Plans coverage and utilization.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+---
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Empowering Your FinOps Team
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Customized reports and proactive notifications.
+- Purchase and renew Reserved Instances easily within the platform.
+- Set cost thresholds and get smart anomaly detection alerts.
+- Actionable cost optimization recommendations with measurable ROI.
 
-## Start your site
+---
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+CloudKeeper Lens gives you the power to **monitor, manage, and maximize** your AWS costs, enabling informed decisions and long-term savings — all in one unified platform.

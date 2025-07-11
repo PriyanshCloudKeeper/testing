@@ -1,4 +1,3 @@
-
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   Sidebar: [
@@ -6,63 +5,63 @@ const sidebars = {
     {
       type: 'category',
       label: 'Billing Summary',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['billingsummary/overview'],
     },
     {
       type: 'category',
       label: 'Billing Console',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['billingconsole/overview'],
     },
     {
       type: 'category',
       label: 'Account-Wise Breakup',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['accountwisebreakup/overview'],
     },
     {
       type: 'category',
       label: 'Hourly Dashboard',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
-    },        
+      items: ['hourlydashboard/overview'],
+    },
     {
       type: 'category',
       label: 'Cost Analysis',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['costanalysis/overview'],
     },
     {
       type: 'category',
       label: 'Cost Breakup',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['costbreakup/overview'],
     },
     {
       type: 'category',
       label: 'Reports',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['reports/overview'],
     },
     {
       type: 'category',
       label: 'Reservations',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['reservations/overview'],
     },
     {
       type: 'category',
       label: 'Recommendations',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['recommendations/overview'],
     },
     {
       type: 'category',
       label: 'Notifications',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['notifications/overview'],
     },
     {
       type: 'category',
       label: 'Cost and Usage Reports',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
+      items: ['costandusagereports/overview'],
     },
     {
       type: 'category',
       label: 'Preferences',
-      items: ['placeholder/p1', 'placeholder/p2', 'placeholder/p3'],
-    },    
+      items: ['preferences/overview'],
+    },
   ]
 };
 
