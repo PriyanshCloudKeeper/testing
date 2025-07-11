@@ -29,8 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/your-username/sentinel-docs/tree/main/'
+          editUrl: 'https://github.com/your-username/sentinel-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -45,69 +44,24 @@ const config = {
     ({
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Lens',
-        logo: {
-          alt: 'Sentinel Logo',
-          src: 'img/logo.svg',
-        },
+        // Remove logo block below if you don’t want a logo
+        // logo: {
+        //   alt: 'Sentinel Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
+          {
+            to: '/',
+            label: 'Lens',
+            position: 'left',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'Sidebar',
             position: 'left',
             label: 'Documentation',
           },
-          {
-            href: 'https://github.com/your-username/sentinel-project', // Link to your project repo
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Overview',
-                to: '/',
-              },
-              {
-                label: 'Getting Started',
-                to: '/getting-started',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Feature requests',
-                href: '#',
-              },
-              {
-                label: 'Twitter',
-                href: '#',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/your-username/sentinel-project',
-              },
-               {
-                label: 'Lens',
-                href: '#',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Sentinel Security Project. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
