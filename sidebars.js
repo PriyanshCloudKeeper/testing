@@ -5,12 +5,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Billing Summary',
-      items: ['billingsummary/overview'],
+      items: ['billingsummary/overview', 'billingsummary/costinsights', 'billingsummary/costbreakup', 'billingsummary/recommendations'],
     },
     {
       type: 'category',
       label: 'Billing Console',
-      items: ['billingconsole/overview'],
+      items: ['billingconsole/overview', 'billingconsole/currentmonth', 'billingconsole/previousmonth', 'billingconsole/daily']
     },
     {
       type: 'category',
