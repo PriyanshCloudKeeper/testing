@@ -20,12 +20,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Hourly Dashboard',
-      items: ['hourlydashboard/overview'],
+      items: ['hourlydashboard/overview', 'hourlydashboard/ec2dashboard', 'hourlydashboard/dtdashboard', 'hourlydashboard/others', 'hourlydashboard/savedreports'],
     },
     {
       type: 'category',
       label: 'Cost Analysis',
-      items: ['costanalysis/overview'],
+      items: ['costanalysis/overview', 'costanalysis/costexplorer'],
     },
     {
       type: 'category',
