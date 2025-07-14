@@ -6,10 +6,10 @@ import styles from './index.module.css';
 export default function Home() {
   return (
     <Layout
-      title="Welcome to Cloudkeeper Lens"
+      title="Home"
       description="Cloud cost clarity and optimization, all in one place.">
       <header className={styles.heroHeader}>
-        <h1>Welcome to Cloudkeeper Lens</h1>
+        <h1>Welcome to CloudKeeper Lens</h1>
       </header>
       <main className={styles.mainContent}>
         <h2>Key features</h2>

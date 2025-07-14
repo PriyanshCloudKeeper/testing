@@ -21,3 +21,7 @@
 .footer--dark {
     --ifm-footer-background-color: #121212;
 }
+
+/* src/css/custom.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Metropolis:wght@600;700&family=Bitter:wght@500&family=Times+New+Roman&display=swap');
