@@ -15,7 +15,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Account-Wise Breakup',
-      items: ['accountwisebreakup/overview'],
+      items: ['accountwisebreakup/overview', 'accountwisebreakup/currentmonth', 'accountwisebreakup/previousmonth', 'accountwisebreakup/daily'],
     },
     {
       type: 'category',
