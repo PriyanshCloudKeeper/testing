@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout
       title="Welcome to Cloudkeeper Lens"
-      description="Welcome page for Cloudkeeper Lens">
+      description="Aesthetic welcome page for Cloudkeeper Lens">
       <main className={styles.hero}>
         <div className={styles.shapes}>
           <div className={styles.circle1}></div>
