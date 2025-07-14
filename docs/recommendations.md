@@ -1,11 +1,13 @@
 ---
 sidebar_position: 1
-title: Overview
+title: Recommendations
 ---
+
+import React from 'react';
 
 # Recommendations
 
-The Recommendations dashboard acts as a **personal accountant**, offering actionable ways for customers to save on infrastructure costs.
+The **Recommendations** dashboard acts as a **personal accountant**, offering actionable ways for customers to save on infrastructure costs.
 
 ---
 
@@ -36,4 +38,12 @@ Beyond these examples, Lens offers further tailored recommendations designed to 
 
 ---
 
-The Recommendations dashboard empowers teams to make data-driven decisions and unlock hidden savings across their cloud infrastructure.
+<div style={{ textAlign: 'center' }}>
+  <img src="/img/recommendations/overview.png" alt="Recommendations Table Example" />
+</div>
+
+---
+
+The **Recommendations** dashboard empowers teams to make data-driven decisions and unlock hidden savings across their cloud infrastructure.
+
+---

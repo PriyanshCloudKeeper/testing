@@ -60,13 +60,11 @@ Filters allow you to isolate exactly where costs are coming from, so you can und
 
 A common use case: you notice higher costs in a particular service. You can use **Service Group By**, and then apply a **Region filter** to find out which regions are driving that increase.
 
-<div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/csf-1.png" alt="Service and Region Filter Example" />
+<div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+  <img src="/img/costexplorer/csf-1.png" alt="Service and Region Filter Example" style={{ maxWidth: '45%', height: 'auto' }} />
+  <img src="/img/costexplorer/csf-2.png" alt="Service and Region Filter Example" style={{ maxWidth: '45%', height: 'auto' }} />
 </div>
 
-<div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/csf-2.png" alt="Service and Region Filter Example" />
-</div>
 
 Resulting view:
 
@@ -123,12 +121,6 @@ Alongside charts, a detailed **tabular breakdown** is available, listing all ser
 <div style={{ textAlign: 'center' }}>
   <img src="/img/costexplorer/cs-2.png" alt="Tabular Cost Breakdown" />
 </div>
-
----
-
-### Saved Reports
-
-After applying filters and groupings, you can **save reports** to quickly revisit and share them with your team. Saved reports ensure consistent, repeatable analysis without reconfiguring each time.
 
 ---
 

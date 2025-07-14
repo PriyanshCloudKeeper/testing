@@ -25,7 +25,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Cost Analysis',
-      items: ['costanalysis/overview', 'costanalysis/costexplorer'],
+      items: ['costanalysis/overview', 'costanalysis/costexplorer', 'costanalysis/savedreports'],
     },
     {
       type: 'category',
@@ -42,11 +42,7 @@ const sidebars = {
       label: 'Reservations',
       items: ['reservations/overview'],
     },
-    {
-      type: 'category',
-      label: 'Recommendations',
-      items: ['recommendations/overview'],
-    },
+    'recommendations',
     {
       type: 'category',
       label: 'Notifications',
