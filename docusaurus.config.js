@@ -49,9 +49,13 @@ const config = {
           position: 'left', // Position of the sidebar link
           label: 'Documentation', // Label text for the sidebar link
         },
+        {
+          to: '/docs/topfeatures', // Path to the page
+          label: 'Top Offerings', // Link label
+          position: 'left', // Position in the navbar
+        }
       ],
     },
-
     prism: {
       theme: lightCodeTheme, // Light theme for code blocks
       darkTheme: darkCodeTheme, // Dark theme for code blocks

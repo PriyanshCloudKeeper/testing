@@ -2,6 +2,7 @@
 const sidebars = {
   Sidebar: [
     'intro',
+    'topfeatures',
     {
       type: 'category',
       label: 'Billing Summary',
@@ -37,10 +38,10 @@ const sidebars = {
       label: 'Reports',
       items: ['reports/overview'],
     },
-    {
+    { 
       type: 'category',
       label: 'Reservations',
-      items: ['reservations/overview'],
+      items: ['reservations/overview', 'reservations/reservationsummary', 'reservations/coverage', 'reservations/utilization'],
     },
     'recommendations',
     {
@@ -48,15 +49,11 @@ const sidebars = {
       label: 'Notifications',
       items: ['notifications/overview', 'notifications/notifications', 'notifications/budgetalerts'],
     },
-    {
-      type: 'category',
-      label: 'Cost and Usage Reports',
-      items: ['costandusagereports/overview'],
-    },
+    'cur',
     {
       type: 'category',
       label: 'Preferences',
-      items: ['preferences/overview'],
+      items: ['preferences/overview','preferences/users', 'preferences/mav', 'preferences/password', 'preferences/tags'],
     },
   ]
 };

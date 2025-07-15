@@ -32,3 +32,7 @@ These filters enable generation of **tailored insights** specific to business ne
 ---
 
 The Hourly Dashboard empowers customers to make proactive decisions on reservation or savings plan purchases, optimizing overall cloud costs.
+
+
+
+Add: see unvbleanded cost and filter apply savings plan to see the cost after savings plan and use the ode cost to see the cost without the discounts

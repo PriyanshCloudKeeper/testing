@@ -1,0 +1,1 @@
+Granular check on data tranfer cost and what is the reason for the cost

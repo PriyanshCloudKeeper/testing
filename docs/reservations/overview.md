@@ -35,3 +35,6 @@ The **Summary** page provides information about the complete inventory of your c
 ---
 
 The Reservation dashboards enable better planning and optimization of reserved instances and savings plans, ensuring higher cost efficiency and strategic resource management.
+
+
+Add: Your inventory detauls and yoiu can see your coverage in coverage sections, utilization: check the utilization of the sp or reservations and check if underutilized

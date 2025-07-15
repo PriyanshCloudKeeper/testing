@@ -11,6 +11,8 @@ The **Recommendations** dashboard acts as a **personal accountant**, offering ac
 
 ---
 
+Add: Note: Recommendations are based on CUR data only, does not count metricies
+
 ### Cost Optimization Best Practices
 
 - Provides **best practices** for cost optimization tailored to each customer's unique usage patterns.
@@ -47,3 +49,5 @@ Beyond these examples, Lens offers further tailored recommendations designed to 
 The **Recommendations** dashboard empowers teams to make data-driven decisions and unlock hidden savings across their cloud infrastructure.
 
 ---
+
+Add: Additional by opening one for an example and also how to check how it is calucalted

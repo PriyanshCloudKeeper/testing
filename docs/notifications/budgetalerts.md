@@ -24,7 +24,7 @@ The **Cost Deviation Alerts** allow users to be notified when their AWS spending
 
 To set up an **Cost Deviation Alerts**, you'll need to configure the following:
 
-- **Budget Details**: This includes defining the Budget Name for the alert, and selecting the Budget Renewal Type (either Recurring Budget or Expiring Budget). Recurring budgets automatically reset after each period, while expiring budgets stop renewing after the selected expiration date.
+- **Budget Details**: This includes defining the Budget Name for the alert, and selecting the Budget Renewal Type (either Recurring Budget or Expiring Budget). **Recurring budgets** automatically reset after each period, while **Expiring budgets** stop renewing after the selected expiration date.
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/notifications/ba-cd-1.png" alt="Cost Deviation Configuration" />
@@ -40,7 +40,7 @@ To set up an **Cost Deviation Alerts**, you'll need to configure the following:
   <img src="/img/notifications/ba-cd-3.png" alt="Cost Deviation Configuration" />
 </div>
   
-- **Budget Threshold**: ou can set a Fixed Budget (a set amount that you track against) or a Relative Budget (based on a percentage threshold that adjusts according to usage trends). This gives you flexibility in tracking your spending either with static or dynamic thresholds.
+- **Budget Threshold**: ou can set a **Fixed Budget** (a set amount that you track against) or a **Relative Budget** (based on a percentage threshold that adjusts according to usage trends). This gives you flexibility in tracking your spending either with static or dynamic thresholds.
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/notifications/ba-cd-4.png" alt="Cost Deviation Configuration" />
