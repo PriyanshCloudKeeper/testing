@@ -46,7 +46,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Notifications',
-      items: ['notifications/overview'],
+      items: ['notifications/overview', 'notifications/notifications', 'notifications/budgetalerts'],
     },
     {
       type: 'category',
