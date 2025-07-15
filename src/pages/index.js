@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './index.module.css';
 
 export default function Home() {
@@ -8,8 +9,16 @@ export default function Home() {
     <Layout
       title="Home"
       description="Cloud cost clarity and optimization, all in one place.">
-      <header className={styles.heroHeader}>
-        <h1>Welcome to CloudKeeper Lens</h1>
+      <header className={styles.heroBanner}>
+        <div className={styles.heroTextContainer}>
+          <h1>Welcome To CloudKeeper Lens</h1>
+        </div>
+        <div className={styles.heroImageContainer}>
+          <img
+            src={useBaseUrl('/img/ck-ill.png')}
+            alt="Illustration of a person using CloudKeeper Lens"
+          />
+        </div>
       </header>
       <main className={styles.mainContent}>
         <h2>Key features</h2>

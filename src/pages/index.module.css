@@ -1,98 +1,101 @@
 /* src/pages/index.module.css */
 
-.heroHeader {
-  background: linear-gradient(135deg, #253e66 0%, #4398d7 50%, #d64794 100%);
-  padding: 100px 20px;
-  text-align: center;
-  color: white;
+.heroBanner {
+  display: flex;
+  align-items: stretch; /* Ensures children fill the height */
+  background-color: white; /* Base background is white for the image side */
+  width: 100%;
+  min-height: 200px;
   position: relative;
-  overflow: hidden;
-  font-family: 'Metropolis', sans-serif; /* Apply Metropolis font */
 }
 
-.heroHeader::before {
+.heroTextContainer {
+  background-color: #4398d7; /* The primary blue from the image */
+  color: white;
+  flex-basis: 60%; /* Give it a bit more space than the image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4rem;
+  position: relative;
+  overflow: hidden; /* Contains the decorative circle */
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+/* Decorative circle from the image */
+.heroTextContainer::before {
   content: '';
   position: absolute;
-  top: 0;
+  width: 450px;
+  height: 450px;
+  background-color: #3884c1; /* A slightly darker, solid blue */
+  border-radius: 50%;
+  top: 50%;
   left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.15) 0%, transparent 50%),
-              radial-gradient(circle at 70% 80%, rgba(214, 71, 148, 0.2) 0%, transparent 50%);
-  pointer-events: none;
+  transform: translate(-40%, -50%); /* Position it behind the text */
+  z-index: 0;
 }
 
-.heroHeader h1 {
-  font-size: 40px; /* Set the font size to 40px for h1 */
-  font-weight: 700; /* Bold for Metropolis Bold */
-  margin-bottom: 2rem;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  position: relative;
+.heroTextContainer h1 {
+  font-family: 'Metropolis', sans-serif;
+  font-weight: 700; 
+  font-size: 40px;
+  line-height: 1.2; 
+  font-weight: 700;
+  margin: 0;
+  position: relative; /* To be on top of the ::before element */
   z-index: 1;
-  font-family: 'Metropolis', sans-serif; /* Apply Metropolis Bold */
+  max-width: 450px;
+  line-height: 1.2;
 }
 
-.searchInput {
-  width: 100%;
-  max-width: 600px;
-  padding: 18px 28px;
-  font-size: 1.1rem;
-  border: 2px solid transparent;
-  border-radius: 25px;
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%);
-  backdrop-filter: blur(15px);
-  box-shadow: 0 8px 32px rgba(67, 152, 215, 0.2), 0 4px 20px rgba(214, 71, 148, 0.1);
-  transition: all 0.3s ease;
-  position: relative;
-  z-index: 1;
-  font-family: 'Times New Roman', serif; /* Use Times New Roman for the input */
+.heroImageContainer {
+  flex-basis: 45%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1rem;
 }
 
-.searchInput:focus {
-  outline: none;
-  border-color: #d64794;
-  box-shadow: 0 12px 40px rgba(67, 152, 215, 0.3), 0 6px 20px rgba(214, 71, 148, 0.2);
-  transform: translateY(-2px);
+.heroImageContainer img {
+  max-width: 100%;
+  max-height: 350px;
+  object-fit: contain;
 }
+/* --- END OF NEW HERO STYLES --- */
 
-.searchInput::placeholder {
-  color: #4398d7;
-  font-weight: 500;
-  opacity: 0.7;
-  font-family: 'Times New Roman', serif; /* Placeholder in Times New Roman */
-}
 
 .mainContent {
   max-width: 1200px;
   margin: 0 auto;
   padding: 60px 20px;
-  font-family: 'Times New Roman', serif; /* Use Times New Roman for the body text */
+  font-family: 'Times New Roman', serif;
 }
 
 .mainContent h2 {
-  font-size: 30px; /* Set font size for subheading */
-  font-weight: 600; /* Use semi-bold for the subheading */
+  font-size: 30px;
+  font-weight: 600;
   color: #253e66;
   margin-bottom: 1rem;
   text-align: center;
-  font-family: 'Metropolis', sans-serif; /* Use Metropolis SemiBold for subheading */
+  font-family: 'Metropolis', sans-serif;
 }
 
 .mainContent > p {
-  font-size: 20px; /* Normal text size */
+  font-size: 20px;
   color: #6b7280;
   text-align: center;
   margin-bottom: 3rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Times New Roman', serif; /* Use Times New Roman for normal text */
+  font-family: 'Times New Roman', serif;
 }
 
 .cardGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
   gap: 24px;
   margin-top: 2rem;
   max-width: 1000px;
@@ -110,14 +113,13 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  min-height: 160px;
+  min-height: 120px; /* Reduced height as icons are removed */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  font-family: 'Times New Roman', serif; /* Normal text in Times New Roman */
 }
 
 .card::before {
@@ -127,7 +129,7 @@
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, #253e66, #4398d7, #d64794);
+  background: linear-gradient(90deg, #253e66, #4398d7);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
@@ -139,7 +141,7 @@
 
 .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(67, 152, 215, 0.15), 0 6px 20px rgba(214, 71, 148, 0.1);
+  box-shadow: 0 12px 32px rgba(67, 152, 215, 0.15);
   border-color: #4398d7;
 }
 
@@ -148,9 +150,7 @@
   font-weight: 600;
   color: #253e66;
   margin: 0;
-  position: relative;
-  z-index: 1;
-  font-family: 'Metropolis', sans-serif; /* Apply Metropolis SemiBold */
+  font-family: 'Metropolis', sans-serif;
 }
 
 /* Add professional icons to cards */
@@ -263,40 +263,51 @@
   opacity: 0.8;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .heroHeader {
-    padding: 60px 20px;
+@media (max-width: 996px) { /* Docusaurus tablet breakpoint */
+  .heroBanner {
+    flex-direction: column;
+  }
+
+  .heroTextContainer {
+    flex-basis: auto;
+    border-radius: 0; /* Remove rounding on smaller screens */
+    padding: 3rem 2rem;
+    text-align: center;
+    min-height: auto;
   }
   
-  .heroHeader h1 {
-    font-size: 2.5rem;
+  .heroTextContainer h1 {
+    font-size: 36px;
+    max-width: 100%;
+  }
+
+  .heroImageContainer {
+    flex-basis: auto;
+    order: -1; /* Move image above the text block */
+    padding: 2rem 1rem 0;
   }
   
+  .heroImageContainer img {
+    max-height: 250px;
+  }
+
   .mainContent {
     padding: 40px 20px;
   }
-  
+
   .mainContent h2 {
     font-size: 2rem;
   }
-  
+
   .cardGrid {
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
     gap: 20px;
-  }
-  
-  .card {
-    min-height: 140px;
-    padding: 24px 20px;
   }
 }
 
-@media (max-width: 1024px) and (min-width: 769px) {
+@media (max-width: 1024px) and (min-width: 997px) {
   .cardGrid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
     gap: 20px;
   }
 }
