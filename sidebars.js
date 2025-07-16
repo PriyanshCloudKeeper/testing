@@ -33,11 +33,7 @@ const sidebars = {
       label: 'Cost Breakup',
       items: ['costbreakup/overview'],
     },
-    {
-      type: 'category',
-      label: 'Reports',
-      items: ['reports/overview'],
-    },
+    'reports',
     { 
       type: 'category',
       label: 'Reservations',
