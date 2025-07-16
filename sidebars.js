@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Cost Breakup',
-      items: ['costbreakup/overview'],
+      items: ['costbreakup/overview', 'costbreakup/dt', 'costbreakup/cca'],
     },
     'reports',
     { 
