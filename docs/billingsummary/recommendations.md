@@ -19,3 +19,12 @@ This section provides tailored, data-driven suggestions for optimizing your AWS 
 - **Upgrade Version to Remove Extended Support Costs**: Helps you identify and upgrade legacy versions of services that are incurring extended support costs.
 
 These recommendations provide users with strategies to **optimize their AWS spending** and improve overall cost efficiency.
+
+import Admonition from '@theme/Admonition';
+
+<Admonition type="note" title="Note">
+  These recommendations are based on CUR (Cost and Usage Report) data and best practices.
+  They do not take into account real-time metrics, such as actual usage or dynamic resource allocation.
+  Make sure to validate and analyze your actual resource utilization before applying any recommendations.
+</Admonition>
+

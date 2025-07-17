@@ -7,34 +7,37 @@ title: Overview
 
 ## Summary
 
-The **Summary** page provides information about the complete inventory of your commitments for both active and expired reservations.
+The **Summary** page provides an overview of your **complete inventory** of reservations, including both **active** and **expired reservations**.
 
 - Depending on the reservation type, a **service-wise reservation tab** is available.
-- For each service, you can view detailed information about savings plans or reservations, including:
+- For each service, you can view detailed information about **savings plans** or **reservations**, including:
   - Region
   - Instance type
   - Time to expiry
   - And more
 
+This section helps you track your commitments and assess the effectiveness of your current reservation strategy.
+
 ---
 
 ## Coverage
 
-- Highlights how much of your entire inventory is covered by reservations or savings plans for individual services.
-- Helps teams analyze **baseline usage** and make informed decisions to increase reservation coverage.
-- Includes a **table and grid view** that provides coverage details for each instance family at the **hourly level**.
+The **Coverage** section highlights how much of your entire inventory is covered by reservations or savings plans for individual services.
+
+- Helps teams understand **baseline usage** and make informed decisions about increasing reservation coverage.
+- Displays coverage details for each instance family at the **hourly level** through a **table and grid view**.
+- This provides insights into whether you have sufficient reservation coverage for your workloads or if additional reservations are required.
 
 ---
 
 ## Utilization
 
-- Shows the **utilization rate** of the commitments made.
-- Includes a **table and grid view** providing utilization details for each commitment in the inventory at the hourly level.
-- By clicking on the account ID, customers can further drill down to see utilization **percentage-wise** or **quantity-wise**.
+The **Utilization** section shows the **utilization rate** of the commitments you’ve made.
+
+- Provides a **table and grid view** showing the utilization of each commitment in your inventory at the **hourly level**.
+- This section helps identify underutilized reservations or savings plans.
+- By clicking on the **account ID**, you can drill down to see the **utilization percentage** or **quantity-wise** details.
+
+**Check the utilization of your reservations or savings plans** to ensure you're maximizing your commitments and identify any areas of underutilization.
 
 ---
-
-The Reservation dashboards enable better planning and optimization of reserved instances and savings plans, ensuring higher cost efficiency and strategic resource management.
-
-
-Add: Your inventory detauls and yoiu can see your coverage in coverage sections, utilization: check the utilization of the sp or reservations and check if underutilized

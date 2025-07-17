@@ -24,7 +24,9 @@ The **Cost Deviation Alerts** allow users to be notified when their AWS spending
 
 To set up an **Cost Deviation Alerts**, you'll need to configure the following:
 
-- **Budget Details**: This includes defining the Budget Name for the alert, and selecting the Budget Renewal Type (either Recurring Budget or Expiring Budget). **Recurring budgets** automatically reset after each period, while **Expiring budgets** stop renewing after the selected expiration date.
+- **Budget Details**: This includes defining the Budget Name for the alert, and selecting the Budget Renewal Type (either Recurring Budget or Expiring Budget).
+  - **Recurring Budget**: Renew on the first day of every monthly billing period, providing continuous budget tracking
+  - **Expiring Budget**: Daily budgets will stop renewing after the selected expiration date, useful for temporary projects or time-limited initiatives
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/notifications/notifications-budget-alert-config.png" alt="Budget alert configuration" />
@@ -40,7 +42,12 @@ To set up an **Cost Deviation Alerts**, you'll need to configure the following:
   <img src="/img/notifications/notifications-budget-actions.png" alt="Budget alert actions" />
 </div>
   
-- **Budget Threshold**: ou can set a **Fixed Budget** (a set amount that you track against) or a **Relative Budget** (based on a percentage threshold that adjusts according to usage trends). This gives you flexibility in tracking your spending either with static or dynamic thresholds.
+- **Budget Threshold**: You can set up budget thresholds using different methods to track your spending:
+  - **Budget Method**:
+    - **Fixed**: Enter a fixed amount to track each budget period, providing a consistent spending limit
+    - **Relative**: Set how many past days to analyze and how much your budget can vary compared to the previous period, allowing for dynamic thresholds
+  - **Days**: When using relative budgeting, specify the number of past days to analyze for establishing your baseline
+  - **Relative percentage threshold**: Define the percentage variance allowed from your baseline spending before triggering alerts
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/notifications/notifications-budget-email.png" alt="Budget alert email settings" />
@@ -93,11 +100,11 @@ The alert can be configured to notify you at the time of **expiration**, or **7*
 
 ### RI Utilization Alerts
 
-This type of alert monitors the **utilization** of Reserved Instances. You will be alerted when the utilization of your RIs falls below a certain threshold, helping you optimize your reserved capacity.
+This type of alert monitors the **utilization** of Reserved Instances. You will be alerted when the utilization of your RIs falls below a certain threshold, helping you optimize your reserved capacity. The utilization measurement helps identify if your reservations are unused or underutilized.
 
 To set up an **RI Utilization Alert**, you'll need to configure the following:
 
-- **Utilization Threshold**: This is a percentage that defines the level of utilization you expect from your Reserved Instances. For example, if you set it to **80%**, you will be alerted if your RI utilization drops below 80%.
+- **Utilization Threshold (%)**: This is a percentage that defines the level of utilization you expect from your Reserved Instances. For example, if you set it to **80%**, you will be alerted if your RI utilization drops below 80%.
   
 - **Service Type**: You can specify which AWS services the alert should monitor. This could be EC2 (Elastic Compute Cloud), RDS (Relational Database Service), ElastiCache, Redshift, or others. This helps ensure that you’re tracking the RI utilization of the relevant services.
 
