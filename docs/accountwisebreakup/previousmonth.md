@@ -19,7 +19,7 @@ This page offers a **comparison** of your AWS spending between the **current mon
 Comparing **previous** and **current month** costs helps you understand how your cloud spend has evolved.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/accountwisebreakup/4.png" alt="Current Month Total Spend" />
+  <img src="/img/accountwisebreakup/account-breakup-region-distribution.png" alt="Account-wise region cost distribution" />
 </div>
 
 ---
@@ -45,7 +45,7 @@ Breakdown of costs by **region** and **usage type** allows for better resource a
 This breakdown helps optimize your **regional usage** and adjust for cost distribution.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/accountwisebreakup/5.png" alt="Current Month Total Spend" />
+  <img src="/img/accountwisebreakup/account-breakup-detailed-view.png" alt="Account-wise detailed cost view" />
 </div>
 
 ---

@@ -20,7 +20,7 @@ The **Total Spend** for the current month reflects the actual cost you’ve incu
 This value helps you keep track of your cloud costs and understand your financial performance for the month.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingconsole/1.png" alt="" />
+  <img src="/img/billingconsole/billing-console-overview.png" alt="Billing console overview dashboard" />
 </div>
 
 ---
@@ -37,7 +37,7 @@ In this section, you can see how much each AWS service has contributed to your t
 Understanding the service-level breakdown allows you to make more informed decisions about your infrastructure and optimize your usage.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingconsole/2.png" alt="" />
+  <img src="/img/billingconsole/billing-console-monthly-trend.png" alt="Billing console monthly cost trend" />
 </div>
 
 ---

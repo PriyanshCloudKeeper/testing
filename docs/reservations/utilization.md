@@ -30,7 +30,7 @@ The **Utilization** page tracks Reserved Instance usage across various services 
 Here is an example showing EC2 utilization over time. The chart tracks **utilization percentage**, which helps users understand whether the Reserved Instances are being used efficiently.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reservations/ec2-utilize.png" alt="" />
+  <img src="/img/reservations/reservations-ec2-utilization.png" alt="EC2 reservation utilization" />
 </div>
 
 ---
@@ -54,7 +54,7 @@ This section shows the detailed breakdown of how Reserved Instances are being ut
 This helps you track underutilized instances and make adjustments accordingly.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reservations/ec2-utilizationcoverage.png" alt="Error" />
+  <img src="/img/reservations/reservations-ec2-utilization-coverage.png" alt="EC2 reservation utilization and coverage" />
 </div>
 
 ---
@@ -68,7 +68,7 @@ You can monitor the utilization of Reserved Instances for different services suc
 Tracking **SP** utilization helps ensure that your committed spend is fully leveraged, maximizing cost savings.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reservations/sp-coverage.png" alt="Error" />
+  <img src="/img/reservations/reservations-savings-plan-coverage.png" alt="Savings Plan coverage" />
 </div>
 
 ---

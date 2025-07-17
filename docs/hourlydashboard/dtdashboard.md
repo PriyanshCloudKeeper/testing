@@ -23,7 +23,7 @@ At the top, you can group data transfer costs by:
 You can also toggle between **Cost** and **Quantity** views, depending on whether you want to analyze dollars spent or actual data transferred.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/dt-1.png" alt="Data Transfer Charts and Filters" />
+  <img src="/img/hourlydashboard/hourly-data-transfer-overview.png" alt="Hourly data transfer dashboard overview" />
 </div>
 
 ---
@@ -47,7 +47,7 @@ The heatmap offers a **visual representation** of hourly cost trends throughout 
 - Helps understand workloads, migrations, or periodic spikes.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/dt-2.png" alt="Data Transfer Heatmap" />
+  <img src="/img/hourlydashboard/hourly-data-transfer-trend.png" alt="Hourly data transfer trend" />
 </div>
 
 ---
@@ -60,7 +60,7 @@ Below the heatmap, a detailed hourly cost grid helps you drill down further to s
 - Identify consistent baseline activities.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/dt-3.png" alt="Detailed Data Transfer Grid" />
+  <img src="/img/hourlydashboard/hourly-data-transfer-detailed.png" alt="Hourly data transfer detailed view" />
 </div>
 
 ---

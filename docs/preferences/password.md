@@ -18,7 +18,7 @@ To change your password, enter your **Previous Password**, then provide a **New 
 Below is an example of the **Password Management** page, where users can enter their old and new passwords to securely update their credentials.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/pass.png" alt="Change Password" />
+  <img src="/img/preferences/preferences-password-settings.png" alt="Password settings" />
 </div>
 
 ---

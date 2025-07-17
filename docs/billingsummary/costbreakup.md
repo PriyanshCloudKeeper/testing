@@ -9,7 +9,7 @@ title: Cost Breakup Dashboards
 import React from 'react';
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingsummary/3.png" alt="Cost Breakdown Image" />
+  <img src="/img/billingsummary/billing-summary-detailed-view.png" alt="Billing summary detailed cost view" />
 </div>
 
 This section provides detailed insights into your costs across various AWS services:

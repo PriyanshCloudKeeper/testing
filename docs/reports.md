@@ -14,7 +14,7 @@ The **Reports** page provides a comprehensive way to analyze your AWS costs and 
 All your configured tag-based reports can be accessed under the **Reports** section in the navigation panel.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reports/reports-see.png" alt="Reports Sidebar" />
+  <img src="/img/reports/reports-detailed-view.png" alt="Detailed reports view" />
 </div>
 
 ### Key Features
@@ -32,7 +32,7 @@ All your configured tag-based reports can be accessed under the **Reports** sect
 The **Monthly View** shows a breakdown of your costs for a selected month. You can expand each tag value to see service-level details.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reports/report-des.png" alt="Reports Monthly View" />
+  <img src="/img/reports/reports-description.png" alt="Report description view" />
 </div>
 
 ---
@@ -42,7 +42,7 @@ The **Monthly View** shows a breakdown of your costs for a selected month. You c
 The **Previous Months** view enables you to analyze cost trends across multiple months. This view provides a comparative breakdown to help track spending changes over time.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reports/reports-pm.png" alt="Reports Previous Months" />
+  <img src="/img/reports/reports-previous-month.png" alt="Previous month reports" />
 </div>
 
 ---
@@ -52,7 +52,7 @@ The **Previous Months** view enables you to analyze cost trends across multiple 
 The **Daily Breakup** view provides a day-by-day cost analysis within a selected month. This granularity allows you to identify sudden cost spikes or usage changes and take immediate action.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reports/reports-daily.png" alt="Reports Daily Breakup" />
+  <img src="/img/reports/reports-daily-view.png" alt="Daily reports view" />
 </div>
 
 ---

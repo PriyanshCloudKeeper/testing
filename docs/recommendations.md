@@ -41,7 +41,7 @@ Beyond these examples, Lens offers further tailored recommendations designed to 
 ---
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/recommendations/overview.png" alt="Recommendations Table Example" />
+  <img src="/img/recommendations/recommendations-overview-dashboard.png" alt="Recommendations overview dashboard" />
 </div>
 
 ---

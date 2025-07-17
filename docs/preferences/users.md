@@ -18,7 +18,7 @@ The **User List** displays all users in the system, along with their details, in
 In the image below, you can see a sample **User List** with the respective user details.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/userdash.png" alt="User List" />
+  <img src="/img/preferences/preferences-user-dashboard.png" alt="User preferences dashboard" />
 </div>
 
 ---

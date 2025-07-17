@@ -28,7 +28,7 @@ This section helps you track **daily costs** for each account and service.
 Visualize your **daily cost fluctuations** with a **line graph** or **heatmap** that highlights **cost spikes** and **patterns** over the course of the month.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/accountwisebreakup/6.png" alt="Current Month Total Spend" />
+  <img src="/img/accountwisebreakup/account-breakup-resource-table.png" alt="Account-wise resource cost table" />
 </div>
 
 ---

@@ -36,7 +36,7 @@ You can group your data in many ways to get targeted insights:
 - **More options** (e.g., Charge Type, API Operation, Resource, etc.)
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/cs-1.png" alt="Group By Options and Example Chart" />
+  <img src="/img/costexplorer/cost-explorer-overview.png" alt="Cost explorer overview dashboard" />
 </div>
 
 ---
@@ -69,7 +69,7 @@ A common use case: you notice higher costs in a particular service. You can use 
 Resulting view:
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/csr-1.png" alt="Service and Region Filter Result" />
+  <img src="/img/costexplorer/cost-explorer-saved-reports.png" alt="Cost explorer saved reports view" />
 </div>
 
 ---
@@ -79,13 +79,13 @@ Resulting view:
 If you suspect a cost spike is due to specific API operations, you can use the **API Operation filter**.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/csf-3.png" alt="API Operation Filter Example" />
+  <img src="/img/costexplorer/cost-explorer-filter-applied.png" alt="Cost explorer with filters applied" />
 </div>
 
 Resulting breakdown:
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/csr-2.png" alt="API Operation Filter Result" />
+  <img src="/img/costexplorer/cost-explorer-report-details.png" alt="Cost explorer report detailed view" />
 </div>
 
 ---
@@ -101,15 +101,15 @@ Cost Explorer supports multiple visualizations:
 Choose the format that best fits your analysis needs.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/cs-5.png" alt="Bar Chart Example" />
+  <img src="/img/costexplorer/cost-explorer-detailed-view.png" alt="Cost explorer detailed view" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/cs-3.png" alt="Line Chart Example" />
+  <img src="/img/costexplorer/cost-explorer-service-breakdown.png" alt="Cost explorer service breakdown" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/cs-4.png" alt="Stacked Chart Example" />
+  <img src="/img/costexplorer/cost-explorer-account-breakdown.png" alt="Cost explorer account breakdown" />
 </div>
 
 ---
@@ -119,7 +119,7 @@ Choose the format that best fits your analysis needs.
 Alongside charts, a detailed **tabular breakdown** is available, listing all services, costs by month, and totals. This helps with precise reporting and exporting.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/cs-2.png" alt="Tabular Cost Breakdown" />
+  <img src="/img/costexplorer/cost-explorer-monthly-trend.png" alt="Cost explorer monthly trend view" />
 </div>
 
 ---

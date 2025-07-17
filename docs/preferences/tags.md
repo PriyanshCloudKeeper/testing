@@ -58,7 +58,7 @@ When creating a tag, provide a **Tag Name** (key) and an optional **Description*
 Here is an example of the **Create Tag** modal, where users can input tag details and choose which MAVs to associate with the tag.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/tag-cr.png" alt="Create Tag" />
+  <img src="/img/preferences/preferences-tag-create.png" alt="Create tag view" />
 </div>
 
 ---
@@ -72,7 +72,7 @@ You can edit existing tags at any time — update their name, description, or ad
 Below is an example of the **Tags Management** screen, where you can view all tags and their associated MAVs.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/tag-1.png" alt="Manage Tags" />
+  <img src="/img/preferences/preferences-tag-overview.png" alt="Tag preferences overview" />
 </div>
 
 ---

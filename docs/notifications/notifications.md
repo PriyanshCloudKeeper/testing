@@ -26,7 +26,7 @@ To add an email notification group:
 Below is the example for adding an email notification group:
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/n-2.png" alt="Email Notification Groups" />
+  <img src="/img/notifications/notifications-settings.png" alt="Notification settings" />
 </div>
 
 ---
@@ -44,7 +44,7 @@ To add a Slack notification channel:
 Here’s an example of the Slack integration form:
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/n-2.png" alt="Slack Notification Setup" />
+  <img src="/img/notifications/notifications-settings.png" alt="Notification settings" />
 </div>
 
 ---
@@ -58,7 +58,7 @@ For example, the **DevOps Admins** group includes recipients from the **DevOps**
 Below is an example of the **Notification Groups** overview:
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/n-1.png" alt="Notification Groups Overview" />
+  <img src="/img/notifications/notifications-overview.png" alt="Notifications overview" />
 </div>
 
 ---

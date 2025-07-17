@@ -18,11 +18,11 @@ The **MAV List** displays all the MAVs in the system. Each MAV is associated wit
 Below is an example of the **MAV List**, showing the different MAVs and their assigned accounts.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/mav-1.png" alt="MAV List" />
+  <img src="/img/preferences/preferences-mav-overview.png" alt="MAV overview" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/mav-2.png" alt="MAV List" />
+  <img src="/img/preferences/preferences-mav-config.png" alt="MAV configuration" />
 </div>
 
 
@@ -39,7 +39,7 @@ Once an MAV is created, users with appropriate permissions can be assigned to th
 Here’s an example of the **Create New MAV** modal, where you can add account IDs to the MAV and name the MAV.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/mav-cr.png" alt="Create New MAV" />
+  <img src="/img/preferences/preferences-mav-create.png" alt="Create MAV view" />
 </div>
 
 ---
@@ -60,7 +60,7 @@ Each **MAV** can have multiple users assigned to it. When you add users to an MA
 In this image, you can see how users are assigned to a specific MAV, ensuring that the correct teams or individuals can access the relevant AWS accounts.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/preferences/adduser-mav.png" alt="MAV User Assignment" />
+  <img src="/img/preferences/preferences-mav-user-settings.png" alt="MAV user settings" />
 </div>
 
 ---

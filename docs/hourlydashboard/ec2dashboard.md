@@ -24,7 +24,7 @@ At the top, you can analyze costs by:
 Additionally, you can toggle between **Unblended**, **Amortized**, and **ODE** cost types to see different financial perspectives. The flexible **time range filter** helps you examine specific windows (e.g., 12-Jun-2025 to 11-Jul-2025).
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/ec2-1.png" alt="EC2 Bar Charts and Filters" />
+  <img src="/img/hourlydashboard/hourly-ec2-overview.png" alt="Hourly EC2 dashboard overview" />
 </div>
 
 ---
@@ -48,7 +48,7 @@ The heatmap visualizes your **hourly cost trends**, highlighting:
 You can use this data to analyze patterns, understand scaling behavior, and plan for better instance scheduling.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/ec2-2.png" alt="EC2 Cost Heatmap" />
+  <img src="/img/hourlydashboard/hourly-ec2-trend.png" alt="Hourly EC2 usage trend" />
 </div>
 
 ---
@@ -61,7 +61,7 @@ The detailed heatmap grid shows **hour-by-hour costs per day**, allowing you to 
 - Spot consistent baseline workloads and right-size accordingly.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/ec2-3.png" alt="Detailed EC2 Hourly Grid" />
+  <img src="/img/hourlydashboard/hourly-ec2-detailed.png" alt="Hourly EC2 detailed view" />
 </div>
 
 ---

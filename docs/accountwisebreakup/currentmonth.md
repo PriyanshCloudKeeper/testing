@@ -19,7 +19,7 @@ This page provides a **real-time breakdown** of your AWS spending for the **curr
 These values reflect your **total spending** for each account, enabling you to track costs at the account level.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/accountwisebreakup/1.png" alt="Current Month Total Spend" />
+  <img src="/img/accountwisebreakup/account-breakup-overview.png" alt="Account-wise cost breakup overview" />
 </div>
 
 ---
@@ -41,11 +41,11 @@ This section shows the breakdown of costs by service within the **Sentinel** and
 This breakdown helps you identify the **high-cost services** for each account, enabling more **targeted optimization** efforts.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/accountwisebreakup/2.png" alt="Current Month Total Spend" />
+  <img src="/img/accountwisebreakup/account-breakup-monthly-trend.png" alt="Account-wise monthly cost trend" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/accountwisebreakup/3.png" alt="Current Month Total Spend" />
+  <img src="/img/accountwisebreakup/account-breakup-service-distribution.png" alt="Account-wise service cost distribution" />
 </div>
 
 ---

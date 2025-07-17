@@ -21,7 +21,7 @@ The **Total Spend** for the previous month reflects the cost incurred in the mon
 This comparison helps you **evaluate spending trends** and pinpoint areas where costs have decreased or increased significantly.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingconsole/3.png" alt="" />
+  <img src="/img/billingconsole/billing-console-service-breakdown.png" alt="Billing console service cost breakdown" />
 </div>
 
 ---
@@ -48,7 +48,7 @@ The previous month's cost is further broken down by **region** and **usage type*
 This detailed breakdown helps you understand **regional variations** and optimize **resource allocation**.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingconsole/4.png" alt="" />
+  <img src="/img/billingconsole/billing-console-account-breakdown.png" alt="Billing console account cost breakdown" />
 </div>
 
 ---

@@ -42,7 +42,7 @@ This feature makes your cost analyses **repeatable**, **efficient**, and **colla
 ### Example
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costexplorer/csr.png" alt="Cost Explorer Saved Reports Example" />
+  <img src="/img/costexplorer/cost-explorer-report-overview.png" alt="Cost explorer report overview" />
 </div>
 
 ---

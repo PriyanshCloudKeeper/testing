@@ -27,27 +27,27 @@ To set up an **Cost Deviation Alerts**, you'll need to configure the following:
 - **Budget Details**: This includes defining the Budget Name for the alert, and selecting the Budget Renewal Type (either Recurring Budget or Expiring Budget). **Recurring budgets** automatically reset after each period, while **Expiring budgets** stop renewing after the selected expiration date.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-1.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-alert-config.png" alt="Budget alert configuration" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-2.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-threshold.png" alt="Budget threshold settings" />
 </div>
 
 - **Budget Filter**: This section lets you refine your alert based on specific AWS services or regions. This helps in narrowing down your alerts to monitor only the critical services or regions of your cloud infrastructure. For example, you can filter costs by **service** such as **EC2**, **S3**, or **Lambda**.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-3.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-actions.png" alt="Budget alert actions" />
 </div>
   
 - **Budget Threshold**: ou can set a **Fixed Budget** (a set amount that you track against) or a **Relative Budget** (based on a percentage threshold that adjusts according to usage trends). This gives you flexibility in tracking your spending either with static or dynamic thresholds.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-4.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-email.png" alt="Budget alert email settings" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-5.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-summary.png" alt="Budget alert summary" />
 </div>
 
 - **Alert Recipients**: You can configure the Alert Recipients by adding email groups or Slack channels to receive notifications. 
@@ -57,11 +57,11 @@ To set up an **Cost Deviation Alerts**, you'll need to configure the following:
 Below, we show an example configuration for **Cost Deviation Alerts** alerts
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-6.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-list.png" alt="Budget alerts list" />
 </div>
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-cd-7.png" alt="Cost Deviation Configuration" />
+  <img src="/img/notifications/notifications-budget-details.png" alt="Budget alert detailed view" />
 </div>
 
 ---
@@ -75,7 +75,7 @@ RI Expiry alerts notify you when your **Reserved Instances (RIs)** are nearing t
 The following section shows a configuration screen where users can set up alerts for Reserved Instance expiry.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-ri-2.png" alt="RI Expiry Configuration" />
+  <img src="/img/notifications/notifications-ri-config.png" alt="Reserved Instance alert configuration" />
 </div>
 
 This screen allows you to define which email notification group or slack channel you want to send notification to.
@@ -86,7 +86,7 @@ The alert can be configured to notify you at the time of **expiration**, or **7*
 
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-ri-1.png" alt="RI Expiry Configuration" />
+  <img src="/img/notifications/notifications-ri-alerts.png" alt="Reserved Instance alerts" />
 </div>
 
 ---
@@ -108,7 +108,7 @@ To set up an **RI Utilization Alert**, you'll need to configure the following:
 Below, we show an example configuration for **RI Utilization** alerts, allowing users to set thresholds for when RI utilization is low.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-riu.png" alt="RI Utilization Configuration" />
+  <img src="/img/notifications/notifications-ri-usage.png" alt="Reserved Instance usage alerts" />
 </div>
 
 ---
@@ -122,7 +122,7 @@ These alerts provide a **daily cost summary** of your AWS spending, helping you 
 Here is an example configuration screen for setting up **Daily Summary Report** alerts, which helps you track daily spending trends.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/notifications/ba-ds.png" alt="Daily Summary Report Setup" />
+  <img src="/img/notifications/notifications-budget-dashboard.png" alt="Budget alerts dashboard" />
 </div>
 
 The Daily Summary Report can be configured to be sent to specific **email recipients** or **Slack channels**.

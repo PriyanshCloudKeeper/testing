@@ -30,7 +30,7 @@ You can monitor the coverage for different services such as **EC2**, **RDS**, **
 Here is an example of how EC2 coverage is tracked over time. You can see the **percentage of usage covered** by Reserved Instances on the graph. The insights help users track their usage and determine if more Reserved Instances are needed.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reservations/ec2-coverage.png" alt="ec2-coverage" />
+  <img src="/img/reservations/reservations-ec2-coverage.png" alt="EC2 reservation coverage" />
 </div>
 
 ---
@@ -53,7 +53,7 @@ This section breaks down the coverage details for each instance type and region.
 This helps in tracking which instances are underutilized and which are optimized for savings.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reservations/ec2-coveragepercent.png" alt="" />
+  <img src="/img/reservations/reservations-ec2-coverage-percent.png" alt="EC2 reservation coverage percentage" />
 </div>
 
 ---
@@ -67,7 +67,7 @@ The coverage percentage for **EC2**, **RDS**, **Redshift**, **ElastiCache**, and
 You can track the coverage for services like **ElastiCache**, ensuring that your services are adequately covered by RIs and helping reduce On-Demand costs.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/reservations/elasticache-coverage.png" alt="" />
+  <img src="/img/reservations/reservations-elasticache-coverage.png" alt="ElastiCache reservation coverage" />
 </div>
 
 ---

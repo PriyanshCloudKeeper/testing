@@ -25,7 +25,7 @@ The **Hourly Dashboard Saved Reports** feature empowers you to create reusable, 
 ### Example
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/hourlydashboard/sv-1.png" alt="Saved Reports Example" />
+  <img src="/img/hourlydashboard/hourly-service-view.png" alt="Hourly service usage view" />
 </div>
 
 ---

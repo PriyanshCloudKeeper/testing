@@ -53,6 +53,6 @@ This detailed view allows you to understand **service-wise usage** on a day-to-d
 ---
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingconsole/5.png" alt="Daily Cost Overview" />
+  <img src="/img/billingconsole/billing-console-detailed-view.png" alt="Billing console detailed cost view" />
 </div>
 

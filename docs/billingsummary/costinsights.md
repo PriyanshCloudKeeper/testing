@@ -8,7 +8,7 @@ title: Cost Insights
 import React from 'react';
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingsummary/1.png" alt="Cost Insight Image" />
+  <img src="/img/billingsummary/billing-summary-overview.png" alt="Billing summary overview dashboard" />
 </div>
 
 This section provides essential cost metrics for your AWS spending:

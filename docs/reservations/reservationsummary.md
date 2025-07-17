@@ -33,7 +33,7 @@ This page helps you to stay on top of reserved capacity, monitor expirations, an
 This table allows you to track and manage reservations, identify instances close to expiration, and take necessary actions to renew or modify your reserved instances.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="" alt="" />
+  <img src="/img/reservations/reservations-summary-table.png" alt="Reservation summary table showing active and expired reservations" />
 </div>
 
 ---
@@ -45,7 +45,7 @@ If your reservation is nearing expiry or you want to purchase more capacity, you
 This feature makes it simple to add or renew reserved instances, ensuring you maintain cost-effective usage of your cloud resources. 
 
 <div style={{ textAlign: 'center' }}>
-  <img src="" alt="" />
+  <img src="/img/reservations/reservations-request-form.png" alt="Request new reserved instances form" />
 </div>
 
 ---
@@ -58,16 +58,5 @@ The Reservation Summary page distinguishes between **Active** and **Expired** re
 - **Expired Reservations**: Past their expiration date. You may need to renew or purchase new instances.
 
 Both active and expired reservations are listed, and you can take appropriate actions such as renewal or modification as needed.
-
-
-### Coverage Insights
-
-The **Coverage Insights** feature provides visibility into how much of your usage is covered by Reserved Instances. It calculates the percentage of usage covered by Reserved Instances versus On-Demand usage.
-
-This helps you identify opportunities for optimization. If your coverage is low, you might want to increase the number of Reserved Instances to reduce costs. The coverage insights are displayed as a **Coverage Percentage** graph.
-
-<div style={{ textAlign: 'center' }}>
-  <img src="" alt="" />
-</div>
 
 ---

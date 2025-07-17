@@ -8,7 +8,7 @@ title: Recommendations
 import React from 'react';
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/billingsummary/2.png" alt="Recommendations Image" />
+  <img src="/img/billingsummary/billing-summary-cost-trend.png" alt="Billing summary cost trend" />
 </div>
 
 This section provides tailored, data-driven suggestions for optimizing your AWS costs:

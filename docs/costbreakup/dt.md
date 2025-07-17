@@ -16,19 +16,19 @@ At the top of the dashboard, you'll find key metrics showing **month-on-month da
 - Total cost for the last 3 months month
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/dt-1.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-monthly-cost.png" alt="Data transfer monthly cost trend for the last 3 months" />
 </div>
 
 - Quick breakdown by service (e.g., **EC2**, **Managed Streaming for Apache Kafka**) and by type (e.g., **Inter AZ (Availability Zone)**, **Internet (Out)**, **Region to Region**)
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/dt-2.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-service-type-breakdown.png" alt="Data transfer cost breakdown by service and type" />
 </div>
 
 - Actionable recommendation to optimize costs
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/dt-3.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-cost-recommendations.png" alt="Data transfer cost optimization recommendations" />
 </div>
 
 
@@ -50,8 +50,8 @@ On the right side of each graph, there is a dropdown menu to adjust **granularit
 Additionally, you can change the **time frame** of the data using the month selector at the top right, enabling historical trend analysis or focused short-term review.
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '200px' }}>
-  <img src="/img/costbreakup/dt/options.png" alt="" style={{ maxWidth: '45%', height: 'auto' }} />
-  <img src="/img/costbreakup/dt/moptions.png" alt="" style={{ maxWidth: '45%', height: 'auto' }} />
+  <img src="/img/costbreakup/dt/data-transfer-graph-options.png" alt="Data transfer graph control options" style={{ maxWidth: '45%', height: 'auto' }} />
+  <img src="/img/costbreakup/dt/data-transfer-month-selector.png" alt="Data transfer month selection options" style={{ maxWidth: '45%', height: 'auto' }} />
 </div>
 
 
@@ -64,7 +64,7 @@ Additionally, you can change the **time frame** of the data using the month sele
 Shows month-wise bar charts of data transfer costs by account (e.g., Sentinel, Thunderstrike). Helps identify accounts incurring high transfer charges.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/hl-ba.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-cost-by-account.png" alt="Data transfer costs by AWS account" />
 </div>
 
 ### Cost by Type
@@ -72,7 +72,7 @@ Shows month-wise bar charts of data transfer costs by account (e.g., Sentinel, T
 Displays similar month-wise bar charts split by transfer type, allowing you to understand trends and changes over time.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/hl-bt.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-cost-by-type.png" alt="Data transfer costs by transfer type" />
 </div>
 
 ---
@@ -84,7 +84,7 @@ Displays similar month-wise bar charts split by transfer type, allowing you to u
 A comprehensive bar chart breaking down data transfer costs across different AWS services over time. Examples include Elastic Compute Cloud (EC2), Elastic Load Balancing (ELB), Virtual Private Cloud (VPC), etc.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/av-cbs.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-cost-by-service.png" alt="Data transfer costs across different AWS services" />
 </div>
 
 ### Cost by Region
@@ -92,7 +92,7 @@ A comprehensive bar chart breaking down data transfer costs across different AWS
 Displays data transfer costs grouped by AWS regions (e.g., Mumbai, Ohio, N. Virginia). This highlights regions with heavy outbound or inter-region data movement.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/av-cbr.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-cost-by-region.png" alt="Data transfer costs grouped by AWS regions" />
 </div>
 
 ---
@@ -104,7 +104,7 @@ Displays data transfer costs grouped by AWS regions (e.g., Mumbai, Ohio, N. Virg
 Enables filtering by service (e.g., EC2, ELB, S3). Displays how different data transfer types contribute to costs within that service.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/cv-cts.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-type-by-service.png" alt="Data transfer types cost contribution by service" />
 </div>
 
 ### Cost of Service by Type
@@ -112,7 +112,7 @@ Enables filtering by service (e.g., EC2, ELB, S3). Displays how different data t
 Allows filtering by transfer type (e.g., Inter AZ, Internet Out, Region to Region). Shows which services are using each transfer type the most.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/cv-cst.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-service-by-type.png" alt="Data transfer services cost by transfer type" />
 </div>
 
 ---
@@ -128,7 +128,7 @@ A summarized view showing top 20 resources contributing to data transfer costs f
 This quickly identifies the most impactful resources.
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/top20-1.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-top20-resources.png" alt="Top 20 resources contributing to data transfer costs" />
 </div>
 
 ---
@@ -142,7 +142,7 @@ Below the top resources, a detailed table shows:
 - **Total cost**
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/dt/top20-2.png" alt="" />
+  <img src="/img/costbreakup/dt/data-transfer-detailed-resources.png" alt="Detailed table of resources with data transfer costs" />
 </div>
 
 This enables precise analysis down to individual resources and supports data-driven optimization efforts.

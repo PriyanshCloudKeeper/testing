@@ -44,7 +44,7 @@ This section presents a detailed table displaying costs and usage metrics for ea
 ---
 
 <div style={{ textAlign: 'center' }}>
-  <img src="/img/costbreakup/network/image.png" alt="" />
+  <img src="/img/costbreakup/network/networking-content-delivery-dashboard.png" alt="Networking and Content Delivery dashboard showing API Gateway and CloudFront costs" />
 </div>
 
 ## Time Frame and Download
