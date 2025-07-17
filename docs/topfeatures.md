@@ -17,7 +17,7 @@ Uncover hidden data transfer costs with our dedicated dashboard that offers deep
 - **Identify Hidden Spikes**: Pinpoint which regions or services are generating high inter-AZ or internet-out costs.
 - **Optimize Networking Spend**: Use these detailed insights to make informed decisions about your architecture and reduce unnecessary expenses.
 
-[**Learn More →**](../costbreakup/dt)
+[**Learn More →**](./costbreakup/dt)
 
 ---
 
@@ -29,7 +29,7 @@ For organizations running containerized workloads, our **Container Cost Allocati
 - **Resource-Level Visibility**: See cost breakdowns by instance type, purchase type (On-Demand vs. Spot), and view CPU/Memory cost splits to find optimization opportunities.
 - **Top Resource Identification**: A "Top 20 Resources" table quickly highlights the most expensive workloads, allowing for targeted optimization efforts.
 
-[**Learn More →**](../costbreakup/cca)
+[**Learn More →**](./costbreakup/cca)
 
 ---
 
@@ -42,7 +42,7 @@ Our **Data Transfer Dashboard** offers the most granular and actionable view int
 - **Top Contributors & Recommendations**: Identify top resources driving data transfer costs and receive optimization suggestions to reduce expenses.
 - **Enterprise-Ready Exporting**: Download detailed reports showing cost and GB breakdown per resource for offline analysis and stakeholder sharing.
 
-[**Learn More →**](../costbreakup/dt)
+[**Learn More →**](./costbreakup/dt)
 
 ---
 
@@ -54,7 +54,7 @@ Identify peak usage times and spot anomalies with our **Hourly Dashboards**. [2]
 - **Informed Decision Making**: Use these hourly insights to plan for RI/SP purchases, understand scaling behavior, and optimize workloads that don't need to run 24/7.
 - **Flexible Analysis**: View costs as Unblended, Amortized, or On-Demand Equivalent (ODE) for better financial clarity.
 
-[**Learn More →**](../hourlydashboard/overview)
+[**Learn More →**](./hourlydashboard/overview)
 
 ---
 
@@ -66,7 +66,7 @@ Our **Cost Explorer** is the most powerful tool in Lens for deep-dive analysis. 
 - **Advanced Filtering**: Isolate costs with precision by combining multiple filters to diagnose unexpected spikes or understand cost drivers.
 - **Saved Reports**: Create and save your complex, filtered views to quickly revisit and share repeatable analyses with your team.
 
-[**Learn More →**](../costanalysis/costexplorer)
+[**Learn More →**](./costanalysis/costexplorer)
 
 ---
 
@@ -78,7 +78,7 @@ Lens acts as your personal FinOps accountant by providing **actionable recommend
 - **Detailed Explanations**: Each recommendation includes a "More Info" section that explains the logic, potential savings, and the specific actions you need to take.
 - **Optimize with Confidence**: Validate our suggestions with your own analysis before applying them to ensure they align with your performance needs.
 
-[**Learn More →**](../recommendations)
+[**Learn More →**](./recommendations)
 
 ---
 
@@ -90,6 +90,6 @@ For organizations managing multiple AWS accounts, our integrated **Tags Manageme
 - **Unified Visibility**: Generate a single report that groups all resources from all selected accounts by tag value (e.g., `dev`, `prod`, `staging`).
 - **Identify Untagged Resources**: Resources without the specified tag key are automatically grouped under an "Untagged" category, helping you improve your tagging hygiene.
 
-[**Learn More →**](../preferences/tags)
+[**Learn More →**](./preferences/tags)
 
 ---
