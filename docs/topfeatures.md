@@ -33,32 +33,19 @@ For organizations running containerized workloads, our **Container Cost Allocati
 
 ---
 
-### **3. Exclusive Data Transfer Dashboard for Deep Insights**
-
-Our **Data Transfer Dashboard** offers the most granular and actionable view into your AWS networking spend — a capability uniquely offered in CloudKeeper Lens.
-
-- **Comprehensive Visibility**: Analyze transfer costs by service (EC2, Kafka, etc.), type (Inter AZ, Region to Region, Internet Out), region, and resource.
-- **Graph Customization**: Adjust time granularity (Daily/Monthly) and switch between chart types for more intuitive visualizations.
-- **Top Contributors & Recommendations**: Identify top resources driving data transfer costs and receive optimization suggestions to reduce expenses.
-- **Enterprise-Ready Exporting**: Download detailed reports showing cost and GB breakdown per resource for offline analysis and stakeholder sharing.
-
-[**Learn More →**](./costbreakup/dt)
-
----
-
-### **4. Hour-by-Hour Cost & Usage Heatmaps**
+### **3. Hour-by-Hour Cost & Usage Heatmaps**
 
 Identify peak usage times and spot anomalies with our **Hourly Dashboards**. [2] While most tools offer daily trends, Lens provides an hour-by-hour breakdown for services like Compute, S3, RDS, and Data Transfer, visualized in an intuitive heatmap.
 
 - **Analyze Patterns**: Darker colors on the heatmap indicate higher spend, helping you visualize peak hours and baseline activity.
-- **Informed Decision Making**: Use these hourly insights to plan for RI/SP purchases, understand scaling behavior, and optimize workloads that don't need to run 24/7.
+- **Informed Decision Making**: Use these hourly insights to plan for RI/SP purchases, understand scaling behavior, and optimize workloads that don't need to run 23/7.
 - **Flexible Analysis**: View costs as Unblended, Amortized, or On-Demand Equivalent (ODE) for better financial clarity.
 
 [**Learn More →**](./hourlydashboard/overview)
 
 ---
 
-### **5. Advanced Cost Explorer with Granular Filtering**
+### **4. Advanced Cost Explorer with Granular Filtering**
 
 Our **Cost Explorer** is the most powerful tool in Lens for deep-dive analysis. [7] It mirrors the functionality of the AWS Cost Explorer but enhances it with more detailed filtering and resource-level granularity.
 
@@ -70,7 +57,7 @@ Our **Cost Explorer** is the most powerful tool in Lens for deep-dive analysis. 
 
 ---
 
-### **6. Actionable, Data-Driven Recommendations**
+### **5. Actionable, Data-Driven Recommendations**
 
 Lens acts as your personal FinOps accountant by providing **actionable recommendations** to save on infrastructure costs. [5] These suggestions are based on your actual usage data from the Cost and Usage Report (CUR).
 
@@ -82,7 +69,7 @@ Lens acts as your personal FinOps accountant by providing **actionable recommend
 
 ---
 
-### **7. Consolidated Cross-Account Tag-Based Reporting**
+### **6. Consolidated Cross-Account Tag-Based Reporting**
 
 For organizations managing multiple AWS accounts, our integrated **Tags Management** and **Reports** feature is indispensable. Centrally define cost allocation tags and generate consolidated reports that group resources across all your accounts.
 
