@@ -24,7 +24,6 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/your-username/sentinel-docs/tree/main/',
         },
         blog: false,
         theme: {
