@@ -3,7 +3,7 @@ const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 
 const config = {
-  title: 'Lens',
+  title: 'Docs',
   tagline: 'All your costing information in one place',
   favicon: 'img/ck-favicon.png',
 
@@ -35,7 +35,7 @@ const config = {
 
   themeConfig: {
     navbar: {
-      title: 'Lens',
+      title: 'Home',
       logo: {
         alt: 'Cloudkeeper Lens Logo',
         src: 'img/CloudKeeper_Logo-removebg-preview.png',
@@ -43,14 +43,13 @@ const config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'Sidebar',
+          to: '/lens',
+          label: 'Lens',
           position: 'left',
-          label: 'Documentation',
         },
         {
-          to: '/docs/topfeatures',
-          label: 'Top Offerings',
+          to: '/tuner',
+          label: 'Tuner',
           position: 'left',
         },
       ],

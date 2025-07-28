@@ -1,57 +1,143 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  Sidebar: [
-    'intro',
-    'topfeatures',
+  SidebarLens: [
+    'lens/intro',
+    'lens/topfeatures',
     {
       type: 'category',
       label: 'Billing Summary',
-      items: ['billingsummary/overview', 'billingsummary/costinsights', 'billingsummary/costbreakup', 'billingsummary/recommendations'],
+      items: [
+        'lens/billingsummary/overview',
+        'lens/billingsummary/costinsights',
+        'lens/billingsummary/costbreakup',
+        'lens/billingsummary/recommendations',
+      ],
     },
     {
       type: 'category',
       label: 'Billing Console',
-      items: ['billingconsole/overview', 'billingconsole/currentmonth', 'billingconsole/previousmonth', 'billingconsole/daily']
+      items: [
+        'lens/billingconsole/overview',
+        'lens/billingconsole/currentmonth',
+        'lens/billingconsole/previousmonth',
+        'lens/billingconsole/daily',
+      ],
     },
     {
       type: 'category',
       label: 'Account-Wise Breakup',
-      items: ['accountwisebreakup/overview', 'accountwisebreakup/currentmonth', 'accountwisebreakup/previousmonth', 'accountwisebreakup/daily'],
+      items: [
+        'lens/accountwisebreakup/overview',
+        'lens/accountwisebreakup/currentmonth',
+        'lens/accountwisebreakup/previousmonth',
+        'lens/accountwisebreakup/daily',
+      ],
     },
     {
       type: 'category',
       label: 'Hourly Dashboard',
-      items: ['hourlydashboard/overview', 'hourlydashboard/ec2dashboard', 'hourlydashboard/dtdashboard', 'hourlydashboard/others', 'hourlydashboard/savedreports'],
+      items: [
+        'lens/hourlydashboard/overview',
+        'lens/hourlydashboard/ec2dashboard',
+        'lens/hourlydashboard/dtdashboard',
+        'lens/hourlydashboard/others',
+        'lens/hourlydashboard/savedreports',
+      ],
     },
     {
       type: 'category',
       label: 'Cost Analysis',
-      items: ['costanalysis/overview', 'costanalysis/costexplorer', 'costanalysis/savedreports'],
+      items: [
+        'lens/costanalysis/overview',
+        'lens/costanalysis/costexplorer',
+        'lens/costanalysis/savedreports',
+      ],
     },
     {
       type: 'category',
       label: 'Cost Breakup',
-      items: ['costbreakup/overview', 'costbreakup/dt', 'costbreakup/cca', 'costbreakup/nt', 'costbreakup/others'],
+      items: [
+        'lens/costbreakup/overview',
+        'lens/costbreakup/dt',
+        'lens/costbreakup/cca',
+        'lens/costbreakup/nt',
+        'lens/costbreakup/others',
+      ],
     },
-    'reports',
-    { 
+    'lens/reports',
+    {
       type: 'category',
       label: 'Reservations',
-      items: ['reservations/overview', 'reservations/reservationsummary', 'reservations/coverage', 'reservations/utilization'],
+      items: [
+        'lens/reservations/overview',
+        'lens/reservations/reservationsummary',
+        'lens/reservations/coverage',
+        'lens/reservations/utilization',
+      ],
     },
-    'recommendations',
+    'lens/recommendations',
     {
       type: 'category',
       label: 'Notifications',
-      items: ['notifications/overview', 'notifications/notifications', 'notifications/budgetalerts'],
+      items: [
+        'lens/notifications/overview',
+        'lens/notifications/notifications',
+        'lens/notifications/budgetalerts',
+      ],
     },
-    'cur',
+    'lens/cur',
     {
       type: 'category',
       label: 'Preferences',
-      items: ['preferences/overview','preferences/users', 'preferences/mav', 'preferences/password', 'preferences/tags'],
+      items: [
+        'lens/preferences/overview',
+        'lens/preferences/users',
+        'lens/preferences/mav',
+        'lens/preferences/password',
+        'lens/preferences/tags',
+      ],
     },
-  ]
+  ],
+
+  SidebarTuner: [
+    'tuner/intro',
+    'tuner/topfeatures',
+    {
+      type: 'category',
+      label: 'Recommendations',
+      items: [
+        'tuner/recommendations/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Scheduler',
+      items: [
+        'tuner/scheduler/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'SpotBot',
+      items: [
+        'tuner/spotbot/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Account',
+      items: [
+        'tuner/account/overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Preferences',
+      items: [
+        'tuner/preferences/overview',
+      ],
+    },
+  ],
 };
 
 module.exports = sidebars;

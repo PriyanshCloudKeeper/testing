@@ -1,0 +1,213 @@
+/* src/pages/home.module.css */
+
+.heroBanner {
+  display: flex;
+  align-items: stretch; /* Ensures children fill the height */
+  background-color: white; /* Base background is white for the image side */
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+}
+
+.heroTextContainer {
+  background-color: #4398d7; /* The primary blue from the image */
+  color: white;
+  flex-basis: 60%; /* Give it a bit more space than the image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 4rem;
+  position: relative;
+  overflow: hidden; /* Contains the decorative circle */
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+/* Decorative circle from the image */
+.heroTextContainer::before {
+  content: '';
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background-color: #3884c1; /* A slightly darker, solid blue */
+  border-radius: 50%;
+  top: 50%;
+  left: 0;
+  transform: translate(-40%, -50%); /* Position it behind the text */
+  z-index: 0;
+}
+
+.heroTextContainer h1 {
+  font-family: 'Metropolis', sans-serif;
+  font-weight: 700; 
+  font-size: 40px;
+  line-height: 1.2; 
+  font-weight: 700;
+  margin: 0;
+  position: relative; /* To be on top of the ::before element */
+  z-index: 1;
+  max-width: 450px;
+  line-height: 1.2;
+}
+
+.heroImageContainer {
+  flex-basis: 45%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.heroImageContainer img {
+  max-width: 100%;
+  max-height: 350px;
+  object-fit: contain;
+}
+/* --- END OF NEW HERO STYLES --- */
+
+
+.mainContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  font-family: 'Times New Roman', serif;
+}
+
+.mainContent h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #253e66;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Metropolis', sans-serif;
+}
+
+.mainContent > p {
+  font-size: 20px;
+  color: #6b7280;
+  text-align: center;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Times New Roman', serif;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Only 2 cards */
+  gap: 30px; /* smaller spacing */
+  margin-top: 2rem;
+  max-width: 600px; /* narrower container for 2 cards */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 32px 24px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #e5e7eb;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  min-height: 140px; /* ✅ slightly bigger */
+  min-width: 180px;  /* ✅ better card width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #253e66, #4398d7);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover::before {
+  transform: scaleX(1);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(67, 152, 215, 0.15);
+  border-color: #4398d7;
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #253e66;
+  margin: 0;
+  font-family: 'Metropolis', sans-serif;
+}
+
+/* ✅ Keep the rest of the original icon styles as they are if needed */
+/* (Your original long list of card[href*="..."]::after can stay untouched) */
+
+@media (max-width: 996px) { /* Docusaurus tablet breakpoint */
+  .heroBanner {
+    flex-direction: column;
+  }
+
+  .heroTextContainer {
+    flex-basis: auto;
+    border-radius: 0; /* Remove rounding on smaller screens */
+    padding: 3rem 2rem;
+    text-align: center;
+    min-height: auto;
+  }
+  
+  .heroTextContainer h1 {
+    font-size: 36px;
+    max-width: 100%;
+  }
+
+  .heroImageContainer {
+    flex-basis: auto;
+    order: -1; /* Move image above the text block */
+    padding: 2rem 1rem 0;
+  }
+  
+  .heroImageContainer img {
+    max-height: 250px;
+  }
+
+  .mainContent {
+    padding: 40px 20px;
+  }
+
+  .mainContent h2 {
+    font-size: 2rem;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .empty {
+    display: none; /* ✅ remove spacer on mobile */
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 997px) {
+  .cardGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
