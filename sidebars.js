@@ -11,6 +11,7 @@ const sidebars = {
         'lens/billingsummary/costinsights',
         'lens/billingsummary/costbreakup',
         'lens/billingsummary/recommendations',
+        'lens/billingsummary/faq',
       ],
     },
     {
@@ -21,6 +22,7 @@ const sidebars = {
         'lens/billingconsole/currentmonth',
         'lens/billingconsole/previousmonth',
         'lens/billingconsole/daily',
+        'lens/billingconsole/faq',
       ],
     },
     {
@@ -31,6 +33,7 @@ const sidebars = {
         'lens/accountwisebreakup/currentmonth',
         'lens/accountwisebreakup/previousmonth',
         'lens/accountwisebreakup/daily',
+        'lens/accountwisebreakup/faq',
       ],
     },
     {
@@ -42,6 +45,7 @@ const sidebars = {
         'lens/hourlydashboard/dtdashboard',
         'lens/hourlydashboard/others',
         'lens/hourlydashboard/savedreports',
+        'lens/hourlydashboard/faq',
       ],
     },
     {
@@ -51,6 +55,7 @@ const sidebars = {
         'lens/costanalysis/overview',
         'lens/costanalysis/costexplorer',
         'lens/costanalysis/savedreports',
+        'lens/costanalysis/faq',
       ],
     },
     {
@@ -62,6 +67,7 @@ const sidebars = {
         'lens/costbreakup/cca',
         'lens/costbreakup/nt',
         'lens/costbreakup/others',
+        'lens/costbreakup/faq',
       ],
     },
     'lens/reports',
@@ -73,6 +79,7 @@ const sidebars = {
         'lens/reservations/reservationsummary',
         'lens/reservations/coverage',
         'lens/reservations/utilization',
+        'lens/reservations/faq',
       ],
     },
     'lens/recommendations',
@@ -83,6 +90,7 @@ const sidebars = {
         'lens/notifications/overview',
         'lens/notifications/notifications',
         'lens/notifications/budgetalerts',
+        'lens/notifications/faq',
       ],
     },
     'lens/cur',
@@ -95,8 +103,10 @@ const sidebars = {
         'lens/preferences/mav',
         'lens/preferences/password',
         'lens/preferences/tags',
+        'lens/preferences/faq',
       ],
     },
+    'lens/faq',
   ],
 
   SidebarTuner: [
