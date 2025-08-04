@@ -1,3 +1,8 @@
+/*
+================================================
+FILE: src/css/custom.css
+================================================
+*/
 :root {
   --ifm-color-primary: #254B62;
   --ifm-color-primary-dark: #214357;
@@ -25,3 +30,9 @@
 /* src/css/custom.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Metropolis:wght@600;700&family=Bitter:wght@500&family=Times+New+Roman&display=swap');
+
+/* Add this rule to hide the Algolia logo in the search modal footer, Comment out to hide the logo */
+
+/* .DocSearch-Logo {
+  display: none;
+} */
