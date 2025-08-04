@@ -51,9 +51,12 @@ export default function Lens() {
           <Link className={styles.card} to="/docs/lens/reservations/overview">
             <h3>Reservations</h3>
           </Link>
-          <div className={styles.empty}></div>
           <Link className={styles.card} to="/docs/lens/recommendations">
             <h3>Recommendations</h3>
+          </Link>
+          <div className={styles.empty}></div>
+          <Link className={styles.card} to="/docs/lens/faq">
+            <h3>FAQs</h3>          
           </Link>
         </div>
       </main>

@@ -2,5 +2,7 @@
 title: FAQs
 ---
 
-**Q: [Placeholder Question for Category 1]?**  
-A: [Your answer goes here]
+## Budget Alerts
+
+**Q: Fixed budget alerts vs Relative budget alerts?**  
+A: 
