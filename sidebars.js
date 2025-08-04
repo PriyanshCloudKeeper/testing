@@ -117,6 +117,11 @@ const sidebars = {
       label: 'Recommendations',
       items: [
         'tuner/recommendations/overview',
+        'tuner/recommendations/cleaner',
+        'tuner/recommendations/overprovisioned',
+        'tuner/recommendations/moredernization',
+        'tuner/recommendations/snooze',
+        'tuner/recommendations/remedyhistory',
       ],
     },
     {

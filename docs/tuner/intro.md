@@ -3,44 +3,60 @@ sidebar_position: 1
 title: Overview
 ---
 
-# CloudKeeper Lens
+# CloudKeeper Tuner
 
-## A Comprehensive AWS Cloud Cost Visibility & Recommendations Platform
+## Integrated AWS Usage Optimization with Real-Time Recommendations
 
-Transform your AWS costs into actionable insights.  
-From high-level trends to a granular view of your cloud spending and usage, gain the clarity you need for informed decision-making and smart recommendations that drive real impact to your bottom line.
+CloudKeeper Tuner is an advanced AWS cost optimization tool that combines deep resource analysis, real-time recommendations, and automation to help organizations reduce costs and improve operational efficiency.  
+With features like the CK Extension, Recommendations Dashboard, Scheduler, and SpotBot, Tuner empowers you to take proactive actions directly within your AWS environment.
 
 ---
 
-### Why CloudKeeper Lens?
+### Why CloudKeeper Tuner?
 
-- **Resource-level cost visibility**, without needing access to your AWS account.
-- **Slack and Microsoft Teams integrations** for seamless updates and alerts.
-- **Unified view across multiple AWS accounts**, all in one place.
-- A single platform to achieve **full cloud transparency** while driving long-term savings.
+- **Seamless integration with AWS Console** through the CK Extension.
+- **Real-time recommendations** to identify and fix cost inefficiencies.
+- **Automation features** like Auto Remediation, Scheduler, and SpotBot for hands-free optimization.
+- **Actionable insights** for cleaner, modernized, and right-sized AWS environments.
 
 ---
 
 ### Key Benefits
 
-#### Monitor • Manage • Maximize
+#### Optimize • Automate • Save
 
-- Detailed billing summary and daily cost heatmaps.
-- Account- and service-wise cost trends (monthly, weekly, daily).
-- Average daily spend and accurate monthly forecasts.
-- Advanced dashboards for critical services like EKS, databases, and data transfer.
-- Hourly dashboards to spot variances and anomalies.
-- Insights into Reserved Instances (RI) and Savings Plans coverage and utilization.
-
----
-
-### Empowering Your FinOps Team
-
-- Customized reports and proactive notifications.
-- Purchase and renew Reserved Instances easily within the platform.
-- Set cost thresholds and get smart anomaly detection alerts.
-- Actionable cost optimization recommendations with measurable ROI.
+- Integrated browser extension to view recommendations directly in AWS Console.
+- Real-time cost insights: forecasted spend, potential savings, and achieved savings.
+- Actionable recommendations across all AWS services.
+- Auto-remediation capabilities to apply optimizations with a single click.
+- Scheduling features to stop non-production resources during off-hours.
+- Spot instance automation via SpotBot to further cut costs.
 
 ---
 
-CloudKeeper Lens gives you the power to **monitor, manage, and maximize** your AWS costs, enabling informed decisions and long-term savings — all in one unified platform.
+### CK Extension for AWS Console
+
+- View all Tuner-generated recommendations directly within the AWS Console.
+- Eliminate switching between platforms with an **embedded dashboard**.
+- Quickly review, act, or snooze recommendations without leaving AWS.
+
+---
+
+### Recommendations Categories
+
+- **Cleaner Recommendations**: Identify and remove unused or idle resources.
+- **Over-Provisioned Recommendations**: Downsize underutilized resources to match actual usage.
+- **Modernization Recommendations**: Upgrade outdated infrastructure for improved efficiency and cost savings.
+
+---
+
+### Empowering Your Cloud Team
+
+- Gain instant visibility into cost-saving opportunities.
+- Streamline actions with automation features like Auto Remediation.
+- Configure preferences and policies that align with your organization’s requirements.
+- Achieve measurable ROI through proactive, data-driven decisions.
+
+---
+
+CloudKeeper Tuner gives you the tools to **optimize, automate, and save** on AWS costs while simplifying cloud governance — all from a single integrated solution.
