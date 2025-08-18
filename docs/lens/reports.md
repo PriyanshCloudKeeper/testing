@@ -72,6 +72,6 @@ These options make it easy to share reports with finance teams or other stakehol
 
 The reports are generated based on the tags configured in the **Tags** section.  
 
-> To learn how to create and configure tags for reports, see the [Tags Management](../preferences/tags) page.
+> To learn how to create and configure tags for reports, see the [Tags Management](./preferences/tags) page.
 
 ---

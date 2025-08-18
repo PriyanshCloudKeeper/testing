@@ -45,7 +45,7 @@ export default function Lens() {
           <Link className={styles.card} to="/docs/lens/costbreakup/overview">
             <h3>Cost Breakup</h3>
           </Link>
-          <Link className={styles.card} to="/docs/lens/reports/overview">
+          <Link className={styles.card} to="/docs/lens/reports">
             <h3>Reports</h3>
           </Link>
           <Link className={styles.card} to="/docs/lens/reservations/overview">
