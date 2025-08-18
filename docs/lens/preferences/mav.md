@@ -5,7 +5,7 @@ title: Multi-Account View (MAV)
 
 # Multi-Account View (MAV)
 
-The **Multi-Account View (MAV)** page allows users to view and manage multiple AWS accounts from a single interface. This page enables centralized monitoring, cost allocation, and user management across linked AWS accounts, helping organizations optimize their cloud resources more efficiently.
+The **Multi-Account View (MAV)** page allows users to view and manage multiple AWS accounts from a single interface. This page enables centralized monitoring, cost allocation, and user management across linked AWS accounts, helping organizations optimize their cloud resources more efficiently. A **MAV (Multi-Account View)** is simply a **logical grouping of AWS accounts**, it provides a convenient way to manage and report on a specific set of accounts within CloudKeeper Offerings.
 
 ---
 
