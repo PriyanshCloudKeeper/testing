@@ -54,27 +54,27 @@ const config = {
         },
       ],
     },
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
-    },
+    // docs: {
+    //   sidebar: {
+    //     hideable: true,
+    //   },
+    // },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
       additionalLanguages: ['yaml', 'python'],
     },
-    algolia: {
-      appId: 'YOUR_APP_ID',
+    // algolia: {
+    //   appId: 'YOUR_APP_ID',
 
-      apiKey: 'YOUR_SEARCH_API_KEY',
+    //   apiKey: 'YOUR_SEARCH_API_KEY',
 
-      indexName: 'YOUR_INDEX_NAME',
+    //   indexName: 'YOUR_INDEX_NAME',
 
-      contextualSearch: true,
+    //   contextualSearch: true,
 
-      searchPagePath: 'search',
-    },
+    //   searchPagePath: 'search',
+    // },
   },
 };
 

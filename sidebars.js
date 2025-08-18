@@ -111,7 +111,7 @@ const sidebars = {
 
   SidebarTuner: [
     'tuner/intro',
-    'tuner/topfeatures',
+    // 'tuner/topfeatures',
     {
       type: 'category',
       label: 'Recommendations',
@@ -124,35 +124,22 @@ const sidebars = {
         'tuner/recommendations/remedyhistory',
       ],
     },
-    {
-      type: 'category',
-      label: 'Scheduler',
-      items: [
-        'tuner/scheduler/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'SpotBot',
-      items: [
-        'tuner/spotbot/overview',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Account',
-      items: [
-        'tuner/account/overview',
-      ],
-    },
+    'tuner/scheduler/overview',
+    'tuner/spotbot/overview',
+    'tuner/account/overview',
     {
       type: 'category',
       label: 'Preferences',
       items: [
         'tuner/preferences/overview',
+        'tuner/preferences/users',
+        'tuner/preferences/mav',
+        'tuner/preferences/password',
+        'tuner/preferences/faq',
       ],
     },
+    'tuner/faq'
   ],
-};
+};  
 
 module.exports = sidebars;

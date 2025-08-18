@@ -3,22 +3,29 @@ sidebar_position: 1
 title: Overview
 ---
 
-# Account-Wise Breakup
+# Preferences
 
-The Account-Wise Breakup section provides **daily** and **monthly** expense details, enabling precise monitoring at the individual account level.
-
----
-
-### Linked Account Insights
-
-Similar to the MAV view, users can also see the **Billing Console** view for each individual linked account within this section. This allows for detailed tracking and analysis of spending patterns on a per-account basis.
+The Preferences section allows customers to configure user permissions, manage multi-account visibility, and set up tags for better organization and tracking.
 
 ---
 
-### Downloadable Reports
+### User Permissions
 
-All data can be downloaded in **XLSX workbook format**, providing the same level of detail and insights as available on the Lens dashboard.
+Users can be assigned one of the following permission levels:
+
+- **READ Only**: Can view data but cannot make changes.
+- **ADMIN**: Has full access and can perform actions such as:
+  - Configure and manage tags
+  - Purchase Savings Plans or Reserved Instances
+  - Set up notifications using the Lens Notification Dashboard
+  - Add and manage other users
 
 ---
 
-The Account-Wise Breakup empowers you to manage and analyze costs at a granular account level, supporting better financial oversight and optimized budget planning.
+### Multi-Account View (MAV)
+
+The **Multi-Account View (MAV)** provides visibility into all accounts linked to a customer, enabling centralized monitoring and management.
+
+---
+
+The Preferences section ensures secure and flexible management of user access, accounts, and organizational tagging strategies across your AWS environment.
