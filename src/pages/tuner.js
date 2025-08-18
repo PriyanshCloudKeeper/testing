@@ -42,6 +42,10 @@ export default function Tuner() {
           <Link className={styles.card} to="/docs/tuner/preferences/overview">
             <h3>Preferences</h3>
           </Link>
+          <div className={styles.empty}></div>
+          <Link className={styles.card} to="/docs/tuner/faq">
+            <h3>FAQs</h3>          
+          </Link>          
         </div>
       </main>
     </Layout>
