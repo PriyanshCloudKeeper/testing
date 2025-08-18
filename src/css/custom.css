@@ -3,6 +3,10 @@
 FILE: src/css/custom.css
 ================================================
 */
+@import "tailwindcss";
+
+/* your custom tokens and small overrides can live below */
+
 :root {
   --ifm-color-primary: #254B62;
   --ifm-color-primary-dark: #214357;
