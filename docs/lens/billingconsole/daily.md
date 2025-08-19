@@ -28,10 +28,7 @@ This table helps you compare **daily costs** and **identify high-cost days**. Yo
 
 ### Daily Cost Trends
 
-The **Daily Cost Trend** section provides a **visual representation** of your daily cost fluctuations. It helps you spot any **spikes** or **trends** in your usage patterns.
-
-- The **heatmap** shows darker colors for high-cost days and lighter colors for lower-cost days.
-- The **graph** helps you understand cost variations over the month.
+The **Daily Cost Trend** section provides a **visual representation** of your daily cost fluctuations. It helps you spot any **spikes** or **trends** in your usage patterns. The **graph** helps you understand cost variations over the month.
 
 This section enables you to **track fluctuations** in your spending on a daily level.
 
