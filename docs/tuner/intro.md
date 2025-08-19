@@ -5,7 +5,7 @@ title: Overview
 
 # CloudKeeper Tuner
 
-## Integrated AWS Usage Optimization with Real-Time Recommendations
+## Integrated AWS Usage Optimization with Near Real-Time Recommendations
 
 CloudKeeper Tuner is an advanced AWS cost optimization tool that combines deep resource analysis, real-time recommendations, and automation to help organizations reduce costs and improve operational efficiency.  
 With features like the CK Extension, Recommendations Dashboard, Scheduler, and SpotBot, Tuner empowers you to take proactive actions directly within your AWS environment.
@@ -15,7 +15,7 @@ With features like the CK Extension, Recommendations Dashboard, Scheduler, and S
 ### Why CloudKeeper Tuner?
 
 - **Seamless integration with AWS Console** through the CK Extension.
-- **Real-time recommendations** to identify and fix cost inefficiencies.
+- **Near Real-time recommendations** to identify and fix cost inefficiencies.
 - **Automation features** like Auto Remediation, Scheduler, and SpotBot for hands-free optimization.
 - **Actionable insights** for cleaner, modernized, and right-sized AWS environments.
 
@@ -26,7 +26,7 @@ With features like the CK Extension, Recommendations Dashboard, Scheduler, and S
 #### Optimize • Automate • Save
 
 - Integrated browser extension to view recommendations directly in AWS Console.
-- Real-time cost insights: forecasted spend, potential savings, and achieved savings.
+- Near Real-time cost insights: forecasted spend, potential savings, and achieved savings.
 - Actionable recommendations across all AWS services.
 - Auto-remediation capabilities to apply optimizations with a single click.
 - Scheduling features to stop non-production resources during off-hours.
