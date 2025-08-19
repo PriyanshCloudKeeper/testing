@@ -1,0 +1,123 @@
+.wrap {
+  position: relative;
+  min-height: calc(100vh - var(--ifm-navbar-height, 0px));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  background: linear-gradient(160deg, #4398d7 0%, #253e66 60%);
+  overflow: hidden;
+  color: #0f172a;
+  font-family: 'Metropolis', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.bgBlobOne,
+.bgBlobTwo {
+  position: absolute;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  filter: blur(50px);
+  opacity: 0.25;
+  pointer-events: none;
+  animation: float 12s ease-in-out infinite;
+}
+
+.bgBlobOne {
+  background: #ffffff;
+  top: -120px;
+  right: -120px;
+}
+
+.bgBlobTwo {
+  background: #d64794;
+  bottom: -140px;
+  left: -140px;
+  animation-delay: 2s;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) scale(1); }
+  50% { transform: translateY(-12px) scale(1.02); }
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 720px;
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px 32px;
+  box-shadow: 0 20px 60px rgba(17, 24, 39, 0.25);
+  text-align: center;
+  border: 1px solid rgba(37, 62, 102, 0.12);
+}
+
+.illustration {
+  max-width: 280px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.title {
+  margin: 6px 0 8px;
+  font-size: 40px;
+  line-height: 1.15;
+  font-weight: 800;
+  color: #253e66;
+}
+
+.accent {
+  color: #d64794;
+}
+
+.subtitle {
+  margin: 0 auto 28px;
+  max-width: 560px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: transform .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+.primary {
+  background: linear-gradient(135deg, #4398d7, #2f6fb0);
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(67, 152, 215, 0.35);
+}
+.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(67, 152, 215, 0.45);
+}
+
+.footer {
+  margin-top: 28px;
+  color: rgba(255,255,255,0.9);
+  font-size: 13px;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .title { font-size: 32px; }
+  .illustration { max-width: 220px; }
+}

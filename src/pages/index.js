@@ -30,7 +30,7 @@
             <Link className={`${styles.card} ${styles.cardSmall} ${styles.cardLens}`} to="/lens">
               <h3>Lens</h3>
             </Link>
-            <Link className={`${styles.card} ${styles.cardSmall} ${styles.cardTuner}`} to="/tuner">
+            <Link className={`${styles.card} ${styles.cardSmall} ${styles.cardTuner}`} to="/coming-soon">
               <h3>Tuner</h3>
             </Link>
           </div>

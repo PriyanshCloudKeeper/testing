@@ -47,18 +47,18 @@ const config = {
           label: 'Lens',
           position: 'left',
         },
-        {
-          to: '/tuner',
-          label: 'Tuner',
-          position: 'left',
-        },
+        // {
+        //   to: '/tuner',
+        //   label: 'Tuner',
+        //   position: 'left',
+        // },
       ],
     },
-    // docs: {
-    //   sidebar: {
-    //     hideable: true,
-    //   },
-    // },
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
     prism: {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
