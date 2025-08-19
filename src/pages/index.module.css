@@ -1,5 +1,24 @@
 /* src/pages/index.module.css */
 
+:global(html, body) {
+  height: 100%;
+  margin: 0;
+}
+
+:global(#__docusaurus) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.mainContent {
+  flex: 1; /* pushes footer down */
+}
+
+.footer {
+  margin-top: auto; /* stick to bottom */
+}
+
 .heroBanner {
   display: flex;
   align-items: stretch; /* Ensures children fill the height */
@@ -93,6 +112,24 @@
   font-family: 'Times New Roman', serif;
 }
 
+.footer {
+  background-color: #4398d7; /* same blue as heroTextContainer */
+  padding: 5px 0;
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  font-family: 'Metropolis', sans-serif;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
 /* Empty spacer column */
 .empty {
   background: transparent;
@@ -106,6 +143,11 @@
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+
+}
+
+.sectionGapLg {
+  height: 50px;
 }
 
 .card {
@@ -138,6 +180,26 @@
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.3s ease;
+}
+
+.featureButtons {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* vertical alignment */
+  gap: 120px;                 /* 👈 controls distance between Lens & Tuner */
+  margin-top: 2rem;          /* space above */
+  margin-bottom: 2rem;       /* space below */
+}
+
+.featureButtons .cardSmall {
+  width: 220px;          /* control button width */
+  padding: 12px 20px;
+  min-height: 100px;
+  text-align: center;
+}
+
+.cardSmall h3 {
+  font-size: 1rem;
 }
 
 .card:hover::before {

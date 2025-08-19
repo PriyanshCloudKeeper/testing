@@ -37,7 +37,7 @@ export default function Tuner() {
             <h3>SpotBot</h3>
           </Link>
           <Link className={styles.card} to="/docs/tuner/account/overview">
-            <h3>Account</h3>
+            <h3>Accounts</h3>
           </Link>
           <Link className={styles.card} to="/docs/tuner/preferences/overview">
             <h3>Preferences</h3>
