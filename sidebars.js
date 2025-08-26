@@ -1,3 +1,8 @@
+// sidebars.js
+
+// One central feature flag (same as in docusaurus.config.js)
+const enableTuner = process.env.ENABLE_TUNER === 'true';
+
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   SidebarLens: [
@@ -109,37 +114,44 @@ const sidebars = {
     'lens/faq',
   ],
 
-  SidebarTuner: [
-    'tuner/intro',
-    // 'tuner/topfeatures',
-    {
-      type: 'category',
-      label: 'Recommendations',
-      items: [
-        'tuner/recommendations/overview',
-        'tuner/recommendations/cleaner',
-        'tuner/recommendations/overprovisioned',
-        'tuner/recommendations/moredernization',
-        'tuner/recommendations/snooze',
-        'tuner/recommendations/remedyhistory',
+  SidebarTuner: enableTuner
+    ? [
+        'tuner/intro',
+        {
+          type: 'category',
+          label: 'Recommendations',
+          items: [
+            'tuner/recommendations/overview',
+            'tuner/recommendations/cleaner',
+            'tuner/recommendations/overprovisioned',
+            'tuner/recommendations/moredernization',
+            'tuner/recommendations/snooze',
+            'tuner/recommendations/remedyhistory',
+          ],
+        },
+        'tuner/scheduler/overview',
+        'tuner/spotbot/overview',
+        'tuner/account/overview',
+        {
+          type: 'category',
+          label: 'Preferences',
+          items: [
+            'tuner/preferences/overview',
+            'tuner/preferences/users',
+            'tuner/preferences/mav',
+            'tuner/preferences/password',
+            'tuner/preferences/faq',
+          ],
+        },
+        'tuner/faq',
+      ]
+    : [
+        {
+          type: 'link',
+          label: 'Coming Soon',
+          href: '/coming-soon',
+        },
       ],
-    },
-    'tuner/scheduler/overview',
-    'tuner/spotbot/overview',
-    'tuner/account/overview',
-    {
-      type: 'category',
-      label: 'Preferences',
-      items: [
-        'tuner/preferences/overview',
-        'tuner/preferences/users',
-        'tuner/preferences/mav',
-        'tuner/preferences/password',
-        'tuner/preferences/faq',
-      ],
-    },
-    'tuner/faq'
-  ],
-};  
+};
 
 module.exports = sidebars;
