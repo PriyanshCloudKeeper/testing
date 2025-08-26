@@ -27,6 +27,21 @@ FILE: src/css/custom.css
     --ifm-footer-background-color: #121212;
 }
 
+.light-theme-image {
+  display: block; /* Show by default (in light mode) */
+}
+.dark-theme-image {
+  display: none; /* Hide by default (in light mode) */
+}
+
+[data-theme='dark'] .light-theme-image {
+  display: none; /* Hide light image in dark mode */
+}
+
+[data-theme='dark'] .dark-theme-image {
+  display: block; /* Show dark image in dark mode */
+}
+
 /* src/css/custom.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Metropolis:wght@600;700&family=Bitter:wght@500&family=Times+New+Roman&display=swap');
@@ -36,3 +51,4 @@ FILE: src/css/custom.css
 /* .DocSearch-Logo {
   display: none;
 } */
+

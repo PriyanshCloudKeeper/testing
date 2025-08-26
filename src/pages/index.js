@@ -9,7 +9,6 @@ import ValuePropsBanner from '@site/src/components/ValuePropsBanner';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
-  // Falls back to false if not provided
   const enableTuner = Boolean(siteConfig?.customFields?.enableTuner);
 
   return (
@@ -22,9 +21,17 @@ export default function Home() {
           <h1>Welcome To CloudKeeper Docs</h1>
         </div>
         <div className={styles.heroImageContainer}>
+          {/* Light Mode Image */}
           <img
             src={useBaseUrl('/img/cloudkeeper-illustration.png')}
-            alt="Illustration of a person using CloudKeeper Lens"
+            alt="Illustration of a person using CloudKeeper Tuner"
+            className="light-theme-image"
+          />
+          {/* Dark Mode Image */}
+          <img
+            src={useBaseUrl('/img/cloudkeeper-illustration-dark.png')}
+            alt="Illustration of a person using CloudKeeper Tuner"
+            className="dark-theme-image"
           />
         </div>
       </header>
@@ -44,7 +51,6 @@ export default function Home() {
             <h3>Lens</h3>
           </Link>
 
-          {/* Gate the Tuner entry point with the feature flag */}
           <Link
             className={`${styles.card} ${styles.cardSmall} ${styles.cardTuner}`}
             to={enableTuner ? '/tuner' : '/coming-soon'}

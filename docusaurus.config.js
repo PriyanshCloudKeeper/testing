@@ -34,24 +34,48 @@ const config = {
       },
     ],
   ],
-
   themeConfig: {
-    navbar: {
-      title: 'Home',
-      logo: {
-        alt: 'Cloudkeeper Lens Logo',
-        src: 'img/CloudKeeper_Logo-removebg-preview.png',
-        href: '/',
-      },
-      items: [
-        { to: '/lens', label: 'Lens', position: 'left' },
-        // ❸ Navbar item obeys the flag
-        { to: enableTuner ? '/tuner' : '/coming-soon', label: 'Tuner', position: 'left' },
-      ],
+  navbar: {
+    title: 'Home',
+    logo: {
+      alt: 'Cloudkeeper Lens Logo',
+      src: 'img/CloudKeeper_Logo-removebg-preview.png',
+      href: '/',
     },
-    docs: { sidebar: { hideable: true } },
-    prism: { theme: lightCodeTheme, darkTheme: darkCodeTheme, additionalLanguages: ['yaml', 'python'] },
+    items: [
+      { to: '/lens', label: 'Lens', position: 'right' },
+      { to: enableTuner ? '/tuner' : '/coming-soon', label: 'Tuner', position: 'right' },
+    ],
   },
+  docs: { sidebar: { hideable: true } },
+  prism: {
+    theme: lightCodeTheme,
+    darkTheme: darkCodeTheme,
+    additionalLanguages: ['yaml', 'python'],
+  },
+
+  colorMode: {
+    disableSwitch: true,
+    defaultMode: 'light',
+  },
+},
+  // themeConfig: {
+  //   navbar: {
+  //     title: 'Home',
+  //     logo: {
+  //       alt: 'Cloudkeeper Lens Logo',
+  //       src: 'img/CloudKeeper_Logo-removebg-preview.png',
+  //       href: '/',
+  //     },
+  //     items: [
+  //       { to: '/lens', label: 'Lens', position: 'left' },
+  //       // ❸ Navbar item obeys the flag
+  //       { to: enableTuner ? '/tuner' : '/coming-soon', label: 'Tuner', position: 'left' },
+  //     ],
+  //   },
+  //   docs: { sidebar: { hideable: true } },
+  //   prism: { theme: lightCodeTheme, darkTheme: darkCodeTheme, additionalLanguages: ['yaml', 'python'] },
+  // },
 };
 
 module.exports = config;

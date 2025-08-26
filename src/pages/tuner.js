@@ -26,9 +26,17 @@ export default function Tuner() {
           <h1>Welcome To CloudKeeper Tuner</h1>
         </div>
         <div className={styles.heroImageContainer}>
+          {/* Light Mode Image */}
           <img
-            src={useBaseUrl('/img/cloudkeeper-illustration-removebg.png')}
+            src={useBaseUrl('/img/cloudkeeper-illustration.png')}
             alt="Illustration of a person using CloudKeeper Tuner"
+            className="light-theme-image"
+          />
+          {/* Dark Mode Image */}
+          <img
+            src={useBaseUrl('/img/cloudkeeper-illustration-dark.png')}
+            alt="Illustration of a person using CloudKeeper Tuner"
+            className="dark-theme-image"
           />
         </div>
       </header>

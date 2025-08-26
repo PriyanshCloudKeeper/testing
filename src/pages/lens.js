@@ -1,3 +1,4 @@
+// src/pages/lens.js
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -14,9 +15,17 @@ export default function Lens() {
           <h1>Welcome To CloudKeeper Lens</h1>
         </div>
         <div className={styles.heroImageContainer}>
+          {/* Light Mode Image */}
           <img
-            src={useBaseUrl('/img/cloudkeeper-illustration-removebg.png')}
-            alt="Illustration of a person using CloudKeeper Lens"
+            src={useBaseUrl('/img/cloudkeeper-illustration.png')}
+            alt="Illustration of a person using CloudKeeper Tuner"
+            className="light-theme-image"
+          />
+          {/* Dark Mode Image */}
+          <img
+            src={useBaseUrl('/img/cloudkeeper-illustration-dark.png')}
+            alt="Illustration of a person using CloudKeeper Tuner"
+            className="dark-theme-image"
           />
         </div>
       </header>
@@ -58,7 +67,7 @@ export default function Lens() {
             <h3>CUR</h3>
           </Link>
           <Link className={styles.card} to="/docs/lens/faq">
-            <h3>FAQs</h3>          
+            <h3>FAQs</h3>
           </Link>
         </div>
       </main>
