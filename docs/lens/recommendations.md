@@ -5,7 +5,7 @@ title: Recommendations
 
 # Recommendations
 
-The **Recommendations** dashboard acts as a **personal accountant**, offering actionable ways for customers to save on infrastructure costs.
+The **Recommendations** dashboard acts as a **personal accountant**, offering actionable ways for you to save on infrastructure costs.
 
 import Admonition from '@theme/Admonition';
 
@@ -54,7 +54,7 @@ You can click on any recommendation to open a detailed view that explains the lo
 
 ---
 
-##### How to get more details
+### How to get more details
 
 When you click **More Info** on a specific recommendation, it provides a detailed breakdown, including:
 

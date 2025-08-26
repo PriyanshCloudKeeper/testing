@@ -330,6 +330,19 @@
   opacity: 0.8;
 }
 
+.card[href*="cur"]::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 1rem;
+  background: linear-gradient(135deg, #4398d7, #d64794);
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 17v-2a4 4 0 014-4h4m0 0l-4-4m4 4l-4 4M3 7h3m-3 4h2m-2 4h3'/%3E%3C/svg%3E") no-repeat center;
+  mask-size: contain;
+  opacity: 0.8;
+}
+
+
 .card.cardOverview::after {
   content: '';
   display: block;

@@ -18,6 +18,7 @@ The Cost and Usage Report feature ensures secure and centralized access to detai
 <div style={{ textAlign: 'center' }}>
   <img src="/img/cur/cur-tagging-options.png" alt="CUR tagging options" />
 </div>
+
 <br/><br/>
 - **Multiple Export Types**: You can choose between standard data export types or utilize advanced formats like **Legacy CUR Export** to support different use cases and integrations.
 

@@ -33,5 +33,3 @@ The **Multi-Account View (MAV)** provides visibility into all accounts linked to
 Tags can be configured and applied across all accounts within an MAV, enabling better organization, cost allocation, and resource tracking.
 
 ---
-
-The Preferences section ensures secure and flexible management of user access, accounts, and organizational tagging strategies across your AWS environment.

@@ -109,7 +109,7 @@ const sidebars = {
         'lens/preferences/mav',
         'lens/preferences/password',
         'lens/preferences/tags',
-        'lens/preferences/faq',
+        //'lens/preferences/faq',
       ],
     },
     'lens/faq',

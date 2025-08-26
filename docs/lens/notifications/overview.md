@@ -50,5 +50,3 @@ The Notification dashboard enables customers to configure **custom alerts and no
 Lens can deliver a **daily cost summary report** directly to configured Slack channels or email groups, ensuring continuous visibility into spending.
 
 ---
-
-The Notification dashboard empowers teams to proactively manage cloud costs with timely, customized alerts and actionable insights.
