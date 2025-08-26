@@ -21,6 +21,8 @@ All your configured tag-based reports can be accessed under the **Reports** sect
 
 - **Tag-Based Grouping**: Reports can be generated based on tags (cost allocation tags) that you have created and linked to various MAVs (Multi-Account Views). This allows you to see resources grouped by tag values such as `dev`, `prod`, etc., regardless of which account they are in.
 
+[Go to Tags Page →](./preferences/tags.md)
+
 - **Cross-Account Visibility**: Consolidates resource costs across multiple accounts that share the same tag keys, helping you understand total spend for specific environments, teams, or workloads.
 
 - **Untagged Resources**: Resources that do not have the selected tag key are automatically grouped under **Untagged**, so you can identify and address missing tags.
@@ -65,13 +67,5 @@ You can download:
 - **Detailed Sheet**: Detailed breakdown including individual services and daily usage, ideal for in-depth analysis and audits.
 
 These options make it easy to share reports with finance teams or other stakeholders.
-
----
-
-### Link to Tags
-
-The reports are generated based on the tags configured in the **Tags** section.  
-
-> To learn how to create and configure tags for reports, see the [Tags Management](./preferences/tags) page.
 
 ---

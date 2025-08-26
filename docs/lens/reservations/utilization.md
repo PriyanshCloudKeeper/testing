@@ -14,9 +14,7 @@ The **Reservation Utilization** page provides insights into how effectively your
 ### Key Features of Utilization Page
 
 - **Utilization Percentage**: This metric shows the percentage of your Reserved Instances' capacity that is being used. A high utilization percentage indicates that you're making full use of your Reserved Instances, while a low percentage suggests that you're not fully utilizing your reservations.
-
 - **Total On-Demand Cost**: This shows the total cost incurred from On-Demand instances. If the utilization is low, more On-Demand instances may be used, leading to higher costs.
-
 - **Average Utilization**: This indicates the average utilization over a defined period. It gives you a quick overview of your Reserved Instances’ effectiveness over time.
 
 ---

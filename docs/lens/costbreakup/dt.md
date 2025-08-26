@@ -34,9 +34,9 @@ At the top of the dashboard, you'll find key metrics showing **month-on-month da
 
 ### Transfer Types
 
-- Inter AZ - Shows detailed cost trends of transfers between availability zones across different regions. Helps pinpoint which region is generating the highest inter-AZ costs.
-- Region to Region - Displays transfers between specific AWS regions. A "To Region" filter allows you to select the target region and analyze which source regions contribute to those costs.
-- Internet Out - Highlights costs incurred when data leaves AWS to the internet, broken down by region. Useful for analyzing external data delivery expenses.
+- **Inter AZ** - Shows detailed cost trends of transfers between availability zones across different regions. Helps pinpoint which region is generating the highest inter-AZ costs.
+- **Region to Region** - Displays transfers between specific AWS regions. A "To Region" filter allows you to select the target region and analyze which source regions contribute to those costs.
+- **Internet Out** - Highlights costs incurred when data leaves AWS to the internet, broken down by region. Useful for analyzing external data delivery expenses.
 
 ---
 
@@ -44,8 +44,8 @@ At the top of the dashboard, you'll find key metrics showing **month-on-month da
 
 On the right side of each graph, there is a dropdown menu to adjust **granularity** and **graph type**, allowing you to customize your analysis:
 
-- **Granularity**: Switch between **Monthly** and **Daily** views.
 - **Graph Type**: Choose from **Bar**, **Stack**, or **Line** charts.
+- **Granularity**: Switch between **Monthly** and **Daily** views.
 
 Additionally, you can change the **time frame** of the data using the month selector at the top right, enabling historical trend analysis or focused short-term review.
 
@@ -123,7 +123,7 @@ Allows filtering by transfer type (e.g., Inter AZ, Internet Out, Region to Regio
 A summarized view showing top 20 resources contributing to data transfer costs for selected services (e.g., EC2, ELB, S3). For each resource, you can see:
 
 - **Total cost**
-- Costs and quantities (GB) by Inter AZ, Internet Out, and Region to Region
+- **Costs** and **quantities** (GB) by Inter AZ, Internet Out, and Region to Region
 
 This quickly identifies the most impactful resources.
 

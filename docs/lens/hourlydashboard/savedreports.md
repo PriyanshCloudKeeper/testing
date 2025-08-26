@@ -30,21 +30,6 @@ The **Hourly Dashboard Saved Reports** feature empowers you to create reusable, 
 
 ---
 
-### Supported Dashboards
-
-You can save reports for all available hourly dashboards, including:
-
-- **Compute (EC2)**
-- **S3**
-- **RDS**
-- **Data Transfer**
-- **ElastiCache**
-- **Redshift**
-- **OpenSearch**
-- **CloudFront**
-
----
-
 ### Benefits
 
 - **Consistency**: Ensure all team members analyze the same view.

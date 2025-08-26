@@ -31,14 +31,6 @@ This feature makes your cost analyses **repeatable**, **efficient**, and **colla
 
 ---
 
-### Actions
-
-- **View**: Open a saved report with all your configurations.
-- **Duplicate**: Make a copy for further analysis or tweaks.
-- **Delete**: Remove outdated reports to keep your dashboard clean.
-
----
-
 ### Example
 
 <div style={{ textAlign: 'center' }}>

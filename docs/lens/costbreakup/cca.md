@@ -5,7 +5,7 @@ title: Container Cost Allocation
 
 # Container Cost Allocation
 
-The **Container Cost Allocation** dashboard in Cost Breakup provides deep visibility into containerized workloads running on **EKS**, **ECS**, and other orchestrated environments. It helps you analyze costs at granular levels — by cluster, namespace, region, instance type, and more — so you can manage container costs efficiently and optimize resource usage.
+The **Container Cost Allocation** dashboard in Cost Breakup provides deep visibility into containerized workloads running on **EKS**, **ECS**, and other orchestrated environments. It helps you analyze costs at granular levels by cluster, namespace, region, instance type, and more so you can manage container costs efficiently and optimize resource usage.
 
 ---
 

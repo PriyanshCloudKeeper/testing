@@ -23,21 +23,21 @@ This section presents a detailed table displaying costs and usage metrics for ea
 - **Resource ID**: Unique identifier for each API Gateway or CloudFront resource.
 - **Region**: AWS region where the resource is hosted (e.g., Asia Pacific - Mumbai).
 
-### Requests
+#### Requests
 
 - **Quantity (Requests)**: Total number of requests processed by the resource.
 - **Cost**: Cost incurred for these requests.
 
-### HTTP Request
+#### HTTP Request
 
 - **Quantity (Requests)**: Total HTTP requests (if applicable).
 - **Cost**: Cost associated with HTTP requests.
 
-### Others
+#### Others
 
 - **Cost**: Any additional miscellaneous costs not directly classified under requests or HTTP requests.
 
-### Total Cost
+#### Total Cost
 
 - Aggregated cost for each resource, combining requests, HTTP requests, and other components.
 

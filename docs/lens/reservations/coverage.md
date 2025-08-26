@@ -14,9 +14,7 @@ The **Reservation Coverage** page provides insights into how much of your usage 
 ### Key Features of Coverage Page
 
 - **Coverage Percentage**: This metric shows the percentage of your usage that is covered by Reserved Instances. Higher coverage indicates more cost savings as you are using Reserved Instances rather than paying for On-Demand instances.
-  
 - **Total On-Demand Cost**: Displays the total cost of On-Demand instances during the selected time period. This can help compare against the cost of RIs to gauge savings.
-
 - **Average Coverage**: The average coverage over a specified period, helping you identify if your Reserved Instances are effectively utilized.
 
 ---

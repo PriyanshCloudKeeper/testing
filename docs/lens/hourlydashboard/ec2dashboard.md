@@ -23,6 +23,13 @@ At the top, you can analyze costs by:
 
 Additionally, you can toggle between **Unblended**, **Amortized**, and **ODE** cost types to see different financial perspectives. The flexible **time range filter** helps you examine specific windows (e.g., 12-Jun-2025 to 11-Jul-2025).
 
+### Cost Type Toggle Options
+
+- **Unblended**: Shows the actual usage cost on the day it is charged no prorating or discounts applied. (Includes upfront charges like RIs or Savings Plans all on that specific day)
+- **Amortized**: Spreads upfront reservation-related fees evenly across the billing period to show a more consistent daily effective cost.
+- **ODE (On-Demand Equivalent)**: Displays what you would have paid under normal on-demand pricing, without any discount from Reserved Instances or Savings Plans.
+
+
 <div style={{ textAlign: 'center' }}>
   <img src="/img/hourlydashboard/hourly-ec2-overview.png" alt="Hourly EC2 dashboard overview" />
 </div>

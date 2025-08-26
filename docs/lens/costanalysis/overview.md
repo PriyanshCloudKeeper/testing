@@ -32,4 +32,4 @@ Saved reports (e.g., costs for tagged resources over the last month) can be quic
 
 ---
 
-The Cost Analysis section empowers customers to understand, analyze, and optimize their cloud spending at a granular level, improving visibility and supporting informed financial decisions.
+

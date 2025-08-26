@@ -14,7 +14,6 @@ The Cost Breakup section provides **granular insights** into your services and t
 - View **month-on-month trends** of data transfer costs by account, type, service, and region.
 - Visualize **resource-wise data transfer charges**, showing individual resources and the types of charges they incur.
 - Includes a top 20 resources view for services like EC2, S3, and more.
-- For deeper analysis, download a comprehensive **XLSX workbook** covering all resources and details.
 
 ---
 
