@@ -27,7 +27,7 @@ export default function Tuner() {
         </div>
         <div className={styles.heroImageContainer}>
           <img
-            src={useBaseUrl('/img/cloudkeeper-illustration.png')}
+            src={useBaseUrl('/img/cloudkeeper-illustration-removebg.png')}
             alt="Illustration of a person using CloudKeeper Tuner"
           />
         </div>

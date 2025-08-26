@@ -15,7 +15,7 @@ export default function Lens() {
         </div>
         <div className={styles.heroImageContainer}>
           <img
-            src={useBaseUrl('/img/cloudkeeper-illustration.png')}
+            src={useBaseUrl('/img/cloudkeeper-illustration-removebg.png')}
             alt="Illustration of a person using CloudKeeper Lens"
           />
         </div>

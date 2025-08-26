@@ -11,118 +11,99 @@
   font-weight: 800;
   line-height: 1.15;
   letter-spacing: 0.2px;
-  /* Sizes tuned to look like the screenshot */
-  font-size: 36px;
+  font-size: clamp(28px, 4vw, 36px);
 }
 
 .headPre,
-.headPost {
-  color: #111827; /* near-black for strong contrast */
-}
+.headPost { color: var(--ck-text); }
 
-.headHighlight {
-  color: #d64794; /* CloudKeeper pink used elsewhere in your CSS */
-  font-weight: 800;
-}
+.headHighlight { color: var(--ck-accent); font-weight: 800; }
 
+/* Desktop grid */
 .features {
+  --divider: var(--ck-divider);
+  position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  align-items: center;
   gap: 24px;
   padding-top: 8px;
-  text-align: center; /* baseline centering */
 }
+
+.features::before,
+.features::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--divider);
+}
+.features::before { left: calc(100% / 3); }
+.features::after { left: calc(200% / 3); }
 
 .featureItem {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 12px;
-  border-left: 1px solid #e5e7eb;
-  padding-left: 24px;
-}
-
-/* Remove left border for the first item */
-.featureItem:first-child {
-  border-left: none;
-  padding-left: 0;
-}
-
-/* Alignment per item */
-.featureItem:nth-child(1) {
-  justify-content: flex-end; /* push content to the right */
-  text-align: right;
-}
-
-.featureItem:nth-child(2) {
-  justify-content: center; /* center content */
+  min-height: 64px;
   text-align: center;
 }
-
-.featureItem:nth-child(3) {
-  justify-content: flex-start; /* push content to the left */
-  text-align: left;
-}
-
 
 .icon {
   width: 36px;
   height: 36px;
   object-fit: contain;
   opacity: 0.9;
-  justify-self: center;
+  flex-shrink: 0;
 }
 
-.featureText {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* left align */
-}
-
+.featureText { display: grid; gap: 2px; }
 .featureTitle {
   font-size: 14px;
   font-weight: 700;
-  color: #111827;
+  color: var(--ck-text);
   line-height: 1.2;
+  white-space: nowrap;
 }
-
 .featureSubtitle {
   font-size: 13px;
-  color: #4b5563;
+  color: var(--ck-text-muted);
   line-height: 1.15;
-  margin-top: 2px;
 }
 
-/* Tablet */
+/* Tablet/mobile */
 @media (max-width: 996px) {
-  .headline {
-    font-size: 32px;
-  }
   .features {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 0;
   }
-    .featureItem {
-    display: flex;
-    align-items: center;   /* centers icon and text vertically */
-    justify-content: center;
-    text-align: left;
-    padding: 12px 16px;
-    gap: 8px;              /* controls distance between icon and text */
+  .features::before,
+  .features::after { display: none; }
+  .featureItem {
+    width: min(560px, 92vw);
+    margin: 0 auto;
+    padding: 16px 0;
+    position: relative;
+  }
+  .featureItem + .featureItem::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 520px;
+    height: 1px;
+    background: var(--divider);
+  }
+  .icon { width: 32px; height: 32px; }
+  .featureTitle { font-size: 13px; }
+  .featureSubtitle { font-size: 12px; }
 }
 
-  .featureItem:first-child {
-    border-top: none;
-    padding-top: 0;
-  }
-}
-
-/* Small phones */
 @media (max-width: 480px) {
-  .headline {
-    font-size: 28px;
-  }
-  .icon {
-    width: 40px;
-    height: 40px;
-  }
+  .featureItem { padding: 14px 0; }
+  .icon { width: 30px; height: 30px; }
 }

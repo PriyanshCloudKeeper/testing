@@ -37,9 +37,9 @@ export default function ValuePropsBanner({
         <span className={styles.headPost}>{postText}</span>
       </h2>
 
-      <div className={styles.features}>
+      <div className={styles.features} role="list">
         {features.map((f, i) => (
-          <div key={i} className={styles.featureItem}>
+          <div key={i} role="listitem" className={styles.featureItem}>
             {f.iconSrc ? (
               <img
                 src={useBaseUrl(f.iconSrc)}
