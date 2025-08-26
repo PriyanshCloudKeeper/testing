@@ -15,8 +15,9 @@ const sidebars = {
         'lens/billingsummary/overview',
         'lens/billingsummary/costinsights',
         'lens/billingsummary/costbreakup',
+        'lens/billingsummary/servicewise',
         'lens/billingsummary/recommendations',
-        'lens/billingsummary/faq',
+        //'lens/billingsummary/faq',
       ],
     },
     {
@@ -27,7 +28,7 @@ const sidebars = {
         'lens/billingconsole/currentmonth',
         'lens/billingconsole/previousmonth',
         'lens/billingconsole/daily',
-        'lens/billingconsole/faq',
+        //'lens/billingconsole/faq',
       ],
     },
     {

@@ -9,7 +9,11 @@ This page provides a comprehensive overview of your AWS account's billing detail
 
 From the **MAV section** at the top, you can also select individual accounts as needed.
 
-A **MAV (Multi-Account View)** is simply a **logical grouping of AWS accounts**, it provides a convenient way to manage and report on a specific set of accounts within CloudKeeper Offerings.
+import Admonition from '@theme/Admonition';
+
+<Admonition type="note" title="Note">
+    A **MAV (Multi-Account View)** is simply a **logical grouping of AWS accounts**, it provides a convenient way to manage and report on a specific set of accounts within CloudKeeper Offerings.
+</Admonition>
 
 ---
 
@@ -36,5 +40,3 @@ A **MAV (Multi-Account View)** is simply a **logical grouping of AWS accounts**,
 - Quickly assess **service-specific spending trends** to make informed decisions.
 
 ---
-
-CloudKeeper Lens empowers you to track, analyze, and understand your cloud costs effortlessly — all in one place.

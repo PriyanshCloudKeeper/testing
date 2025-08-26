@@ -19,5 +19,3 @@ This section provides detailed insights into your costs across various AWS servi
 - **Data Transfer**: Shows how much is being spent on inter-region or external data transfer.
 - **Amazon CloudFront**, **Amazon CloudWatch**: Provides detailed breakdowns for content delivery and monitoring services.
 
-The dashboards empower users to drill down into their **service-specific costs** and optimize their usage patterns.
-

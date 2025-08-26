@@ -15,7 +15,6 @@ From high-level trends to a granular view of your cloud spending and usage, gain
 ### Why CloudKeeper Lens?
 
 - **Resource-level cost visibility**, without needing access to your AWS account.
-- **Slack and Microsoft Teams integrations** for seamless updates and alerts.
 - **Unified view across multiple AWS accounts**, all in one place.
 - A single platform to achieve **full cloud transparency** while driving long-term savings.
 
@@ -43,4 +42,4 @@ From high-level trends to a granular view of your cloud spending and usage, gain
 
 ---
 
-CloudKeeper Lens gives you the power to **monitor, manage, and maximize** your AWS costs, enabling informed decisions and long-term savings — all in one unified platform.
+CloudKeeper Lens gives you the power to **monitor, manage, and maximize** your AWS costs, enabling informed decisions and long-term savings, all in one unified platform.

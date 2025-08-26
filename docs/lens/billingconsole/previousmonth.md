@@ -1,19 +1,19 @@
 ---
 sidebar_position: 3
-title: Previous Month
+title: Previous Months
 ---
 
 import React from 'react';
 
-# Previous Month Overview
+# Previous Months Overview
 
-This page provides a **comparison** of your AWS spending between the **current month** and the **previous month**. It helps you understand **spending trends**, identify **cost fluctuations**, and make informed decisions for optimizing your cloud usage going forward.
+This page provides a **comparison** of your AWS spending between the **current month** and the **previous months**. It helps you understand **spending trends**, identify **cost fluctuations**, and make informed decisions for optimizing your cloud usage going forward.
 
 ---
 
 ### Total Spend Comparison
 
-The **Total Spend** for the previous month reflects the cost incurred in the month prior. This metric allows you to **compare** your previous month’s actual costs with the **current month**'s spending to assess **trends and changes**.
+The **Total Spend** for the previous month reflects the cost incurred in the months prior. This metric allows you to **compare** your previous month’s actual costs with the **current month**'s spending to assess **trends and changes**.
 
 - **Previous Month Spend**: $854,635  
 - **Current Month Spend**: $712,102

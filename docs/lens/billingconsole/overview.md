@@ -9,6 +9,8 @@ The Billing Console offers a detailed view of both **monthly** and **daily** cos
 
 Costs are grouped at the **service**, **region**, and **usage type** levels, providing a granular breakdown for better visibility and analysis.
 
+The page provides both **summary and detailed views** of costs—whether you're looking at a high-level monthly report or a line-by-line daily cost breakdown, the Billing Console equips users with the clarity needed to understand their cloud spend.
+
 ---
 
 ### Features
@@ -25,5 +27,3 @@ Costs are grouped at the **service**, **region**, and **usage type** levels, pro
 - Valuable for analyzing long-term trends and enabling effective budget planning and allocation.
 
 ---
-
-The Billing Console empowers teams to achieve precise cost control and improve financial decision-making with detailed, actionable insights.

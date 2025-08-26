@@ -11,7 +11,7 @@ CloudKeeper Lens provides a suite of powerful, exclusive features designed to gi
 
 ### **1. Deep-Dive Data Transfer Cost Analysis**
 
-Uncover hidden data transfer costs with our dedicated dashboard that offers deep visibility into your networking spend. [1, 11] While many tools provide high-level data transfer metrics, Lens allows you to analyze costs at a granular level — by service, region, transfer type, and even individual resources.
+Uncover hidden data transfer costs with our dedicated dashboard that offers deep visibility into your networking spend. While many tools provide high-level data transfer metrics, Lens allows you to analyze costs at a granular level by service, region, transfer type, and even individual resources.
 
 - **Granular Insights**: View month-on-month trends and resource-wise charges to see exactly which EC2 instances, S3 buckets, or load balancers are incurring costs.
 - **Identify Hidden Spikes**: Pinpoint which regions or services are generating high inter-AZ or internet-out costs.
@@ -35,7 +35,7 @@ For organizations running containerized workloads, our **Container Cost Allocati
 
 ### **3. Hour-by-Hour Cost & Usage Heatmaps**
 
-Identify peak usage times and spot anomalies with our **Hourly Dashboards**. [2] While most tools offer daily trends, Lens provides an hour-by-hour breakdown for services like Compute, S3, RDS, and Data Transfer, visualized in an intuitive heatmap.
+Identify peak usage times and spot anomalies with our **Hourly Dashboards**. While most tools offer daily trends, Lens provides an hour-by-hour breakdown for services like Compute, S3, RDS, and Data Transfer, visualized in an intuitive heatmap.
 
 - **Analyze Patterns**: Darker colors on the heatmap indicate higher spend, helping you visualize peak hours and baseline activity.
 - **Informed Decision Making**: Use these hourly insights to plan for RI/SP purchases, understand scaling behavior, and optimize workloads that don't need to run 23/7.
@@ -47,7 +47,7 @@ Identify peak usage times and spot anomalies with our **Hourly Dashboards**. [2]
 
 ### **4. Advanced Cost Explorer with Granular Filtering**
 
-Our **Cost Explorer** is the most powerful tool in Lens for deep-dive analysis. [7] It mirrors the functionality of the AWS Cost Explorer but enhances it with more detailed filtering and resource-level granularity.
+Our **Cost Explorer** is the most powerful tool in Lens for deep-dive analysis. It mirrors the functionality of the AWS Cost Explorer but enhances it with more detailed filtering and resource-level granularity.
 
 - **Powerful Grouping**: Group data by over a dozen dimensions, including Service, Region, Instance Type, Tags, API Operation, and Resource ID.
 - **Advanced Filtering**: Isolate costs with precision by combining multiple filters to diagnose unexpected spikes or understand cost drivers.
@@ -59,7 +59,7 @@ Our **Cost Explorer** is the most powerful tool in Lens for deep-dive analysis. 
 
 ### **5. Actionable, Data-Driven Recommendations**
 
-Lens acts as your personal FinOps accountant by providing **actionable recommendations** to save on infrastructure costs. [5] These suggestions are based on your actual usage data from the Cost and Usage Report (CUR).
+Lens acts as your personal FinOps accountant by providing **actionable recommendations** to save on infrastructure costs. These suggestions are based on your actual usage data from the Cost and Usage Report (CUR).
 
 - **Practical & Measurable**: Get tailored recommendations like moving to lower-cost instance types, removing idle network resources, or leveraging different S3 storage classes.
 - **Detailed Explanations**: Each recommendation includes a "More Info" section that explains the logic, potential savings, and the specific actions you need to take.

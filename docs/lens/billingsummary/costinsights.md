@@ -17,6 +17,3 @@ This section provides essential cost metrics for your AWS spending:
 - **Current Month**: Shows the ongoing spending for the current month, helping you keep track of real-time costs.
 - **Forecast**: Projects the anticipated cost for the remainder of the month, allowing for better planning.
 - **Daily Average**: Provides a metric for daily average spending, useful for comparing your daily costs against expected usage.
-
-These insights help track your cloud costs, make comparisons between months, and plan for upcoming expenses.
-
