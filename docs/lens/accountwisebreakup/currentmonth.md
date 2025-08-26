@@ -26,19 +26,7 @@ These values reflect your **total spending** for each account, enabling you to t
 
 ### Service-wise Breakdown
 
-This section shows the breakdown of costs by service within the **Sentinel** and **Thunderstrike** accounts.
-
-#### **Sentinel Account**:
-- **API Gateway**: $1,393.11  
-- **Athena**: $130.11  
-- **Backup**: $0.00
-
-#### **Thunderstrike Account**:
-- **API Gateway**: $289.86  
-- **Athena**: $14.71  
-- **Backup**: $0.00
-
-This breakdown helps you identify the **high-cost services** for each account, enabling more **targeted optimization** efforts.
+This section shows the breakdown of costs by service and region within the **Sentinel** and **Thunderstrike** accounts.
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/accountwisebreakup/account-breakup-monthly-trend.png" alt="Account-wise monthly cost trend" />
@@ -47,6 +35,8 @@ This breakdown helps you identify the **high-cost services** for each account, e
 <div style={{ textAlign: 'center' }}>
   <img src="/img/accountwisebreakup/account-breakup-service-distribution.png" alt="Account-wise service cost distribution" />
 </div>
+
+This breakdown helps you identify the **high-cost services** for each account, enabling more **targeted optimization** efforts.
 
 ---
 

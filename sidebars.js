@@ -39,7 +39,7 @@ const sidebars = {
         'lens/accountwisebreakup/currentmonth',
         'lens/accountwisebreakup/previousmonth',
         'lens/accountwisebreakup/daily',
-        'lens/accountwisebreakup/faq',
+        //'lens/accountwisebreakup/faq',
       ],
     },
     {

@@ -1,13 +1,13 @@
 ---
 sidebar_position: 3
-title: Previous Month
+title: Previous Months
 ---
 
 import React from 'react';
 
-# Previous Month
+# Previous Months
 
-This page offers a **comparison** of your AWS spending between the **current month** and the **previous month**. It helps you understand **spending trends**, identify **cost fluctuations**, and make informed decisions for optimizing cloud usage.
+This page offers a **comparison** of your AWS spending between the **current month** and the **previous months**. It helps you understand **spending trends**, identify **cost fluctuations**, and make informed decisions for optimizing cloud usage.
 
 ---
 
@@ -16,7 +16,7 @@ This page offers a **comparison** of your AWS spending between the **current mon
 - **Previous Month Spend (Sentinel)**: $854,635  
 - **Current Month Spend (Sentinel)**: $782,621
 
-Comparing **previous** and **current month** costs helps you understand how your cloud spend has evolved.
+Comparing the **previous** and **current** month costs helps you understand how your cloud spend has evolved.
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/accountwisebreakup/account-breakup-region-distribution.png" alt="Account-wise region cost distribution" />
@@ -24,28 +24,17 @@ Comparing **previous** and **current month** costs helps you understand how your
 
 ---
 
-### Service-wise Breakdown for Previous Month
+### Breakdown by Service and Region/Usage
 
-- **Sentinel Account**:  
-  - **API Gateway**: $3,608  
-  - **Athena**: $461  
-  - **CloudFront**: $85,534  
-
-#### This section helps you track **month-to-month variations** in your AWS service usage and spending.
-
----
-
-### Breakdown by Region/Usage
+This section helps you track **month-to-month variations** in AWS service usage and spending.
 
 Breakdown of costs by **region** and **usage type** allows for better resource allocation and optimization.
 
-- **Sentinel (Asia Pacific)**: $50,000  
-- **Sentinel (US East)**: $30,000  
+- **Sentinel - CloudTrail Cost - Asia Pacific**: $2,000  
+- **Sentinel - CloudTrail Cost - US East**: $550  
 
-This breakdown helps optimize your **regional usage** and adjust for cost distribution.
+This breakdown helps you optimize **regional service usage** and better manage your cost distribution.
 
 <div style={{ textAlign: 'center' }}>
   <img src="/img/accountwisebreakup/account-breakup-detailed-view.png" alt="Account-wise detailed cost view" />
 </div>
-
----

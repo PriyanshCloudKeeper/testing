@@ -5,7 +5,7 @@ title: Overview
 
 # Account-Wise Breakup
 
-The Account-Wise Breakup section provides **daily** and **monthly** expense details, enabling precise monitoring at the individual account level.
+The Account-Wise Breakup section provides **daily** and **monthly** expense details, enabling precise monitoring at the individual account level within a MAV (Multi-Account View).
 
 ---
 
@@ -20,5 +20,3 @@ Similar to the MAV view, users can also see the **Billing Console** view for eac
 All data can be downloaded in **XLSX workbook format**, providing the same level of detail and insights as available on the Lens dashboard.
 
 ---
-
-The Account-Wise Breakup empowers you to manage and analyze costs at a granular account level, supporting better financial oversight and optimized budget planning.
