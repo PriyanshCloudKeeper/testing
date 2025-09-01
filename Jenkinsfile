@@ -15,23 +15,7 @@ pipeline {
     }
 
     stages {
-
-        stage('clean workspace'){
-            steps{
-                script{
-                    cleanWs()
-                }
-            }
-        }
-
-        stage('Git Checkout') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/PriyanshCloudKeeper/testing.git',
-                    credentialsId: CREDENTIALS
-            }
-        }
-
+        
         stage('Docker Login to ECR') {
             steps {
                 script {
