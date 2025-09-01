@@ -28,8 +28,8 @@ pipeline {
         stage('Docker Image Build') {
             steps {
                 script {
-                    sh "sudo docker build -t ${REPO_NAME} ."
-                    sh "sudo docker tag ${REPO_NAME}:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
+                    sh "docker build -t ${REPO_NAME} ."
+                    sh "docker tag ${REPO_NAME}:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
                 }
             }   
         }
@@ -37,7 +37,7 @@ pipeline {
         stage('Docker Image Push') {
             steps {
                 script {
-                    sh "sudo docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
+                    sh "docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
                 }
             }   
         }
