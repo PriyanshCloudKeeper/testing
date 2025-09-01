@@ -1,5 +1,5 @@
 pipeline {
-    
+
     agent any
 
     environment {
@@ -75,7 +75,7 @@ pipeline {
             }
         }
 
-        stage('Apply Task Defination') {
+        stage('Apply Task Definition') {
             steps{
                 script {
                     sh 'aws ecs register-task-definition --cli-input-json file://new-td.json'
