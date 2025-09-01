@@ -45,14 +45,10 @@ pipeline {
         stage('Create New Task-Definition') {
             steps {
                 script {
-                    sh "apt-get install -y jq"
                     sh """
                         aws ecs describe-task-definition --task-definition ${TASK_DEFINITION} --output json > docs-td.json
-                        jq --arg IMAGE_URI "${IMAGE_NAME}:${VERSION}" '
-                        .taskDefinition |
-                        {family, executionRoleArn, networkMode, requiresCompatibilities, cpu, memory,
-                        containerDefinitions: [.containerDefinitions[0] + {image: $IMAGE_URI}]}
-                        ' docs-td.json > new-td.json
+
+                        sed "s#${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}#${IMAGE_NAME}:${VERSION}#g" docs-td.json > new-td.json
                     """
                 }
             }
