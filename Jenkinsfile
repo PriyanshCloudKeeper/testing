@@ -7,8 +7,8 @@ pipeline {
         IMAGE_NAME = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}"
         VERSION = "${env.BUILD_NUMBER}"
         TASK_DEFINITION = "lens-docs-td"
-        CLUSTER = "lens-docs-cluster"
         SERVICE = "lens-docs-service"
+        CLUSTER = "priyansh-crazy-cluster"
     }
     stages {
         stage('Docker Login to ECR') {
