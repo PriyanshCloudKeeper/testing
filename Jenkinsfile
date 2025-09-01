@@ -7,7 +7,7 @@ pipeline {
         IMAGE_NAME = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}"
         VERSION = "${env.BUILD_NUMBER}"
         TASK_DEFINITION = "lens-docs-td"
-        SERVICE = "lens-docs-service"
+        SERVICE = "lens-docs-td-service"
         CLUSTER = "priyansh-crazy-cluster"
     }
     stages {
