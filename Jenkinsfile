@@ -45,7 +45,7 @@ pipeline {
         stage('Create New Task-Definition') {
             steps {
                 script {
-                    sh "sudo apt-get update && sudo apt-get install -y jq"
+                    sh "apt-get install -y jq"
                     sh """
                         aws ecs describe-task-definition --task-definition ${TASK_DEFINITION} --output json > docs-td.json
                         jq --arg IMAGE_URI "${IMAGE_NAME}:${VERSION}" '
