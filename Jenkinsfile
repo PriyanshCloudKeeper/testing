@@ -1,7 +1,5 @@
 pipeline {
-
     agent any
-
     environment {
         AWS_REGION = "ap-south-1"
         AWS_ACCOUNT_ID = "351698237623"
@@ -12,9 +10,7 @@ pipeline {
         CLUSTER = "lens-docs-cluster"
         SERVICE = "lens-docs-service"
     }
-
     stages {
-
         stage('Docker Login to ECR') {
             steps {
                 script {
@@ -24,44 +20,47 @@ pipeline {
                 }
             }
         }
-
         stage('Docker Image Build') {
             steps {
                 script {
                     sh "docker build -t ${REPO_NAME} ."
                     sh "docker tag ${REPO_NAME}:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
                 }
-            }   
+            }
         }
-
         stage('Docker Image Push') {
             steps {
                 script {
                     sh "docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
                 }
-            }   
+            }
         }
-
-        stage('Create New Task-Definition') {
+        stage('Update Task-Definition') {
             steps {
                 script {
                     sh """
-                        aws ecs describe-task-definition --task-definition ${TASK_DEFINITION} --output json > docs-td.json
-
-                        sed -i "s#\"image\": \".*\"#\"image\": \"${IMAGE_NAME}:${VERSION}\"#g" docs-td.json
+                        # Extract only the 'taskDefinition' block and remove runtime-specific fields
+                        aws ecs describe-task-definition \
+                            --task-definition ${TASK_DEFINITION} \
+                            --query 'taskDefinition' \
+                            --output json > temp-td.json
+                        
+                        # Remove fields that shouldn't be included in registration and update image
+                        jq 'del(.taskDefinitionArn, .revision, .status, .requiresAttributes, .placementConstraints, .compatibilities, .registeredAt, .registeredBy) | .containerDefinitions[0].image = "${IMAGE_NAME}:${VERSION}"' temp-td.json > docs-td.json
+                        
+                        # Clean up temp file
+                        rm temp-td.json
                     """
                 }
             }
         }
-
-        stage('Apply Task Definition') {
+        stage('Apply Task-Definition') {
             steps{
                 script {
                     sh 'aws ecs register-task-definition --cli-input-json file://docs-td.json'
                 }
             }
         }
-
         stage('Update ECS Service') {
             steps{
                 script {
