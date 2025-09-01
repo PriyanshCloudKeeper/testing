@@ -3,7 +3,6 @@ pipeline {
     agent any
 
     environment {
-        CREDENTIALS = "Jenkins-Github"
         AWS_REGION = "ap-south-1"
         AWS_ACCOUNT_ID = "351698237623"
         REPO_NAME = "lens-docs"
@@ -15,7 +14,7 @@ pipeline {
     }
 
     stages {
-        
+
         stage('Docker Login to ECR') {
             steps {
                 script {
