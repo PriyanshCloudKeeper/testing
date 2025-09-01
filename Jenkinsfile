@@ -48,7 +48,7 @@ pipeline {
                     sh """
                         aws ecs describe-task-definition --task-definition ${TASK_DEFINITION} --output json > docs-td.json
 
-                        sed "s#${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}#${IMAGE_NAME}:${VERSION}#g" docs-td.json > new-td.json
+                        sed -i "s#\"image\": \".*\"#\"image\": \"${IMAGE_NAME}:${VERSION}\"#g" docs-td.json
                     """
                 }
             }
@@ -57,7 +57,7 @@ pipeline {
         stage('Apply Task Definition') {
             steps{
                 script {
-                    sh 'aws ecs register-task-definition --cli-input-json file://new-td.json'
+                    sh 'aws ecs register-task-definition --cli-input-json file://docs-td.json'
                 }
             }
         }
