@@ -3,6 +3,7 @@
 
 # Production
 /build
+/terraform
 
 # Generated files
 .docusaurus
