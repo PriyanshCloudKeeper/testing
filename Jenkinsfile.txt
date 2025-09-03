@@ -1,7 +1,5 @@
 pipeline {
-
     agent any
-
     environment {
         AWS_REGION = "ap-south-1"
         AWS_ACCOUNT_ID = "351698237623"
@@ -12,20 +10,7 @@ pipeline {
         SERVICE = "lens-docs-td-service"
         CLUSTER = "priyansh-crazy-cluster"
     }
-    
     stages {
-
-        stage('Git Checkout') {
-            steps {
-                checkout([
-	                $class: 'GitSCM', 
-	                branches: [[name: "main"]],
-	                userRemoteConfigs: [[credentialsId: 'CloudKeeper',url: "git@gitlab.intelligrape.net:cloudkeeper/<>.git"]]
-	                ])
-	           
-            }
-        }
-
         stage('Docker Login to ECR') {
             steps {
                 script {
@@ -35,40 +20,40 @@ pipeline {
                 }
             }
         }
-
         stage('Docker Image Build') {
             steps {
                 script {
-                    sh "docker build -t ${IMAGE_NAME}:${VERSION} ."
+                    sh "docker build -t ${REPO_NAME} ."
+                    sh "docker tag ${REPO_NAME}:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
                 }
             }
         }
-
         stage('Docker Image Push') {
             steps {
                 script {
-                    sh "docker push ${IMAGE_NAME}:${VERSION}"
+                    sh "docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${REPO_NAME}:${VERSION}"
                 }
             }
         }
-
         stage('Update Task-Definition') {
             steps {
                 script {
                     sh """
+                        # Extract only the 'taskDefinition' block and remove runtime-specific fields
                         aws ecs describe-task-definition \
                             --task-definition ${TASK_DEFINITION} \
                             --query 'taskDefinition' \
                             --output json > temp-td.json
                         
+                        # Remove fields that shouldn't be included in registration and update image
                         jq 'del(.taskDefinitionArn, .revision, .status, .requiresAttributes, .placementConstraints, .compatibilities, .registeredAt, .registeredBy) | .containerDefinitions[0].image = "${IMAGE_NAME}:${VERSION}"' temp-td.json > docs-td.json
                         
+                        # Clean up temp file
                         rm temp-td.json
                     """
                 }
             }
         }
-
         stage('Apply Task-Definition') {
             steps{
                 script {
@@ -76,19 +61,10 @@ pipeline {
                 }
             }
         }
-
         stage('Update ECS Service') {
             steps{
                 script {
                     sh """aws ecs update-service --cluster ${CLUSTER} --service ${SERVICE} --task-definition ${TASK_DEFINITION}"""
-                }
-            }
-        }
-
-        stage('clean workspace'){
-            steps{
-                script{
-                    cleanWs()
                 }
             }
         }
